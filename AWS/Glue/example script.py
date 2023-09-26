@@ -46,7 +46,7 @@ def run(input_bucket, forecast_path, actuals_path, output_bucket, output_path):
     actuals_df = (
         spark.read.format("parquet")
         .option("header", "true")
-        .option("inferSchema": "true")
+        .option("inferSchema", "true")
         .load(f"s3://{input_bucket}/{actuals_path}")
         .withColumnRenamed("actuals_date", "forecast_date")
         .groupby(*(["SKU", "sales_channel", "forecast_date"]))
