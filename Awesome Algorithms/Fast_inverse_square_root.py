@@ -1,5 +1,6 @@
 # Check out the wikipedia page for an interesting read!
 # https://en.wikipedia.org/wiki/Fast_inverse_square_root
+# https://www.youtube.com/watch?v=p8u_k2LIZyo&t=11s
 
 import struct, math
 
