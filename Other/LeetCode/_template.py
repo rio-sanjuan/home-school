@@ -17,7 +17,6 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
-    sol.test()
 
     input = [1, 2, 3, 4]
     print(f"Input: {input}")
