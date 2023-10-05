@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2023-10-05.md",
+                "file": "Topic Notes/Spanish/Summer in Barcelona.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Spanish",
+                "query": "weather",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2023-10-05.md",
+                "file": "Topic Notes/Spanish/Summer in Barcelona.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2023-10-05.md",
+                "file": "Topic Notes/Spanish/Summer in Barcelona.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2023-10-05.md"
+                "file": "Topic Notes/Spanish/Summer in Barcelona.md"
               }
             }
           }
@@ -146,21 +147,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56409883d1e7fb49",
+  "active": "b806eaaf29988f4e",
   "lastOpenFiles": [
-    "Templates/Daily Note.md",
+    "Templates/Easy Spanish.md",
+    "Topic Notes/Spanish/Summer in Barcelona.md",
     "Daily Notes/2023-10-05.md",
+    "Reference Notes/Chewy Hackathon.md",
+    "Untitled.canvas",
+    "README.md",
+    "Templates/Daily Note.md",
     "Daily Notes",
     "Templates/Reference Note.md",
-    "Reference Notes/Chewy Hackathon.md",
     "Templates/LeetCode.md",
     "Topic Notes/LeetCode/Untitled.md",
     "Templates/Interview Question.md",
-    "Templates/Easy Spanish.md",
     "Untitled.md",
-    "README.md",
     "Topic Notes/Spanish",
-    "Topic Notes/Spanish/Summer in Barcelona.md",
     "Topic Notes/Behavioral/MLE Career Guide/notes.md",
     "Daily Notes",
     "Topic Notes",

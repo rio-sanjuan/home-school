@@ -1,5 +1,5 @@
 ---
-title: Daily Notes - {{date}}
+title: "Daily Notes: {{date}}"
 tags:
   - journal
 ---

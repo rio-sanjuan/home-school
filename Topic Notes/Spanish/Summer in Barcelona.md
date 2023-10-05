@@ -1,10 +1,10 @@
 ## Video Details
-- **Title:** Summer in Barcelona
+- **Title:** Summer in Barcelona: Still Worth It?
 - **Link:** 
 - **Date Watched:** 2023-10-04
-- **Location:** 
-- **Episode Number:** 
-- **Tags:** #EasySpanish #language #spanish
+- **Location:** #barcelona 
+- **Episode Number:** 328
+- **Tags:** #EasySpanish #language #spanish #temperature #summer #weather
 
 ## Opening Dialogue
 ```dialogue
