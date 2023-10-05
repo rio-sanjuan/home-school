@@ -1,7 +1,7 @@
 
-- **Question:** 
+- **Question:** {{title}}
 - **Date:** 2023-10-04
-- **Tags:** #EasySpanish #LanguageLearning #Spanish]]
+- **Tags:** 
 ---
 ### Question:
 

@@ -1,17 +1,15 @@
-## Video Details
 - **Title:** {{title}}
 - **Link:** 
 - **Date Watched:** {{date}}
 - **Location:** 
 - **Episode Number:** 
 - **Tags:** #EasySpanish #language #spanish
-
+---
 ## Opening Dialogue
 ```dialogue
 left: Host
 < El verano ya está aquí y no es un secreto que en Barcelona hace muchísimo calor. Aun así, vamos a preguntarle a la gente qué hábitos siguen para sobrellevarlo mejor, y, también, les vamos a pedir algún consejo para llegar vivos al final del verano. ¿Queréis descubrirlo? ¡Vamos!
 ```
-
 ## Vocabulary & Phrases
 _Capture new words, phrases, and their translations._
 

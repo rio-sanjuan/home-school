@@ -1,5 +1,5 @@
 ---
-title: Daily Notes - [[Date]]
+title: Daily Notes - {{date}}
 tags:
   - journal
 ---
