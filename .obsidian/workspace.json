@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Spanish/Summer in Barcelona.md",
+                "file": "Templates/LeetCode.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Spanish/Summer in Barcelona.md",
+                "file": "Templates/LeetCode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topic Notes/Spanish/Summer in Barcelona.md",
+                "file": "Templates/LeetCode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topic Notes/Spanish/Summer in Barcelona.md"
+                "file": "Templates/LeetCode.md"
               }
             }
           }
@@ -147,20 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b806eaaf29988f4e",
+  "active": "56409883d1e7fb49",
   "lastOpenFiles": [
+    "Templates/Daily Note.md",
     "Templates/Easy Spanish.md",
+    "Templates/LeetCode.md",
+    "Templates/Interview Question.md",
+    "Templates/Note.md",
+    "README.md",
     "Topic Notes/Spanish/Summer in Barcelona.md",
     "Daily Notes/2023-10-05.md",
     "Reference Notes/Chewy Hackathon.md",
     "Untitled.canvas",
-    "README.md",
-    "Templates/Daily Note.md",
     "Daily Notes",
-    "Templates/Reference Note.md",
-    "Templates/LeetCode.md",
     "Topic Notes/LeetCode/Untitled.md",
-    "Templates/Interview Question.md",
     "Untitled.md",
     "Topic Notes/Spanish",
     "Topic Notes/Behavioral/MLE Career Guide/notes.md",
