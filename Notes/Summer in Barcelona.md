@@ -1,5 +1,5 @@
 ## Video Details
-- **Title:** Summer in Barcelona: Still Worth It?
+- **Video Title:** Summer in Barcelona: Still Worth It?
 - **Link:** 
 - **Date Watched:** 2023-10-04
 - **Location:** #barcelona 
@@ -38,6 +38,7 @@ _Highlight any cultural, social, or historical insights learned from the video._
 1. 
 2. 
 3. 
+
 ---
 
 ## Additional Resources & Links
@@ -48,12 +49,3 @@ _Mention any additional resources, links, or follow-up notes related to the vide
 3. 
 
 ---
-
-## Tags
-_Add any tags for organizational purposes._
-
-#EasySpanish #LanguageLearning #SpanishVocabulary #CulturalInsights #summer #hot #barcelona
-
-
----
-
