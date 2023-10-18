@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3bd751830d28f1b3",
+        "id": "874d117160e2a9ef",
         "type": "tabs",
         "children": [
           {
-            "id": "c76ce0aa2c173ba1",
+            "id": "efd4bf2eadc4a2c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Project Failure in ML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04ec14befeac7a9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Summer in Barcelona.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c93c4684435dbeff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/What's your favorite food?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ad1649516fda539",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Note.md",
+                "file": "Notes/Tips for Madrid.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Note.md",
+                "file": "Notes/Tips for Madrid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Note.md",
+                "file": "Notes/Tips for Madrid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Note.md"
+                "file": "Notes/Tips for Madrid.md"
               }
             }
           }
@@ -182,17 +145,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ad1649516fda539",
+  "active": "efd4bf2eadc4a2c1",
   "lastOpenFiles": [
-    "Notes/Supervised Learning.md",
-    "Notes/What is Statistics.md",
-    "Notes/What's your favorite food?.md",
+    "Notes/Untitled.md",
+    "Notes/Tips for Madrid.md",
+    "Files/Pasted image 20231017183517.png",
     "Notes/Project Failure in ML.md",
     "Notes/Summer in Barcelona.md",
+    "Notes/What's your favorite food?.md",
+    "Templates/Note.md",
+    "Notes/Supervised Learning.md",
+    "Notes/What is Statistics.md",
     "Notes/AB Testing.md",
     "Templates/Easy Spanish.md",
     "Untitled.md",
-    "Templates/Note.md",
     "Notes",
     "Templates/Daily Note.md",
     "Templates/Interview Question.md",
