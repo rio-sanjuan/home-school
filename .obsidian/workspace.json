@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Tips for Madrid.md",
+                "file": "Notes/Project Failure in ML.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Tips for Madrid.md",
+                "file": "Notes/Project Failure in ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Tips for Madrid.md",
+                "file": "Notes/Project Failure in ML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Tips for Madrid.md"
+                "file": "Notes/Project Failure in ML.md"
               }
             }
           }
@@ -147,22 +147,22 @@
   },
   "active": "efd4bf2eadc4a2c1",
   "lastOpenFiles": [
-    "Notes/Untitled.md",
-    "Notes/Tips for Madrid.md",
-    "Files/Pasted image 20231017183517.png",
-    "Notes/Project Failure in ML.md",
-    "Notes/Summer in Barcelona.md",
     "Notes/What's your favorite food?.md",
-    "Templates/Note.md",
     "Notes/Supervised Learning.md",
+    "Notes/Untitled.md",
+    "Notes/Project Failure in ML.md",
+    "Templates/Note.md",
+    "Templates/LeetCode.md",
+    "Templates/Interview Question.md",
+    "Templates/Easy Spanish.md",
+    "Templates/Daily Note.md",
+    "Files/Pasted image 20231017183517.png",
+    "Notes/Tips for Madrid.md",
+    "Notes/Summer in Barcelona.md",
     "Notes/What is Statistics.md",
     "Notes/AB Testing.md",
-    "Templates/Easy Spanish.md",
     "Untitled.md",
     "Notes",
-    "Templates/Daily Note.md",
-    "Templates/Interview Question.md",
-    "Templates/LeetCode.md",
     "README.md",
     "Daily Notes/2023-10-05.md",
     "Reference Notes/Chewy Hackathon.md",
