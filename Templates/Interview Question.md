@@ -1,45 +1,46 @@
 
 - **Question:** {{title}}
 - **Date:** 2023-10-04
-- **Tags:** 
+- **Tags:**
 ---
-### Question:
 
-- **Question Details:** 
+### Question
+
+- **Question Details:**
     - [Text of the interview question or problem statement here.]
 
-### My Response:
+### My Response
 
-- **Initial Thoughts/Approach:** 
+- **Initial Thoughts/Approach:**
     - [Your initial thoughts or approach towards the question before answering.]
-- **Answer Given:** 
+- **Answer Given:**
     - [Your response during the interview. Include as much detail as you remember.]
 
 ## Reflections
 
-### What Went Well:
+### What Went Well
 
 - [Points about what aspects of your response went well.]
-    
-### What Didn’t Go Well:
+
+### What Didn't Go Well
 
 - [Points about what aspects of your response did not go well or were challenging.]
-    
+
 ## Improvements & Learning
 
-### Lessons Learned:
+### Lessons Learned
 
 - [Any lessons learned from the question or from reflecting on your response.]
 
-### Improvement Actions:
+### Improvement Actions
 
 - [Specific steps or actions to take to improve on this question in the future.]
 
-### Follow-Up Questions:
+### Follow-Up Questions
 
 - [Any follow-up questions or variations of the interview question to practice.]
 
-### Resources & Learning:
+### Resources & Learning
 
 - [Links to resources, notes, or materials that will aid in improving your knowledge or approach.]
 
@@ -50,4 +51,3 @@
     - [[Related Note 2]]
 - **External References:**
     - [Links or references to external materials or resources.]
-

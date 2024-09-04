@@ -1,8 +1,4 @@
----
-title: "{{date}}"
-tags:
-  - journal
----
+#journal
 
 {{date: dddd, MMMM Do, YYYY}}
 

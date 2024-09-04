@@ -1,6 +1,6 @@
 - **Title:** {{title}}
 - **Date:** {{date}}
-- **Tags:** 
+- **Tags:**
 ---
 
 ## Objective
