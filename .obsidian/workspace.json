@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Project Failure in ML.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "4f3cf64becfe2544",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Project Failure in ML.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Project Failure in ML.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Project Failure in ML.md"
+                "file": "README.md"
               }
             }
           }
@@ -156,20 +145,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f3cf64becfe2544",
+  "active": "a972992ff9d6f4cb",
   "lastOpenFiles": [
-    "Notes/What's your favorite food?.md",
-    "Notes/Supervised Learning.md",
-    "Notes/Untitled.md",
-    "Notes/Project Failure in ML.md",
+    "Daily Notes/2024-08-16.md",
+    "Daily Notes/Untitled.md",
     "Templates/Note.md",
     "Templates/LeetCode.md",
     "Templates/Interview Question.md",
     "Templates/Easy Spanish.md",
     "Templates/Daily Note.md",
-    "Files/Pasted image 20231017183517.png",
-    "Notes/Tips for Madrid.md",
     "Notes/Summer in Barcelona.md",
+    "Notes/Project Failure in ML.md",
+    "Files/Pasted image 20231017183517.png",
+    "Notes/What's your favorite food?.md",
+    "Notes/Supervised Learning.md",
+    "Notes/Untitled.md",
+    "Notes/Tips for Madrid.md",
     "Notes/What is Statistics.md",
     "Notes/AB Testing.md",
     "Untitled.md",

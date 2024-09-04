@@ -1,19 +1,11 @@
 ---
-title: "Daily Notes: {{date}}"
-tags: []
+title: "{{date}}"
+tags:
+  - journal
 ---
-- **Date:** {{date}}
-- **Tags:** #journal
----
-### Meals 🍱
 
-* {{time}}: Meal 1
+{{date: dddd, MMMM Do, YYYY}}
 
-### Exercise 🏋️
+## Life
 
-* {{time}}: Exercise 1
-
-### Reading
-
-* Book
-	* p1 - p10
+## Work
