@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4f3cf64becfe2544",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "efd4bf2eadc4a2c1",
+  "active": "4f3cf64becfe2544",
   "lastOpenFiles": [
     "Notes/What's your favorite food?.md",
     "Notes/Supervised Learning.md",
