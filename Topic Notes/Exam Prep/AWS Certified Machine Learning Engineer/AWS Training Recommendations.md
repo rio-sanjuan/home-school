@@ -1,6 +1,3 @@
-# Module 2: Refresh your AWS Knowledge
-
-## AWS Training Recommendations
 
 ### AWS ML Engineer Associate Curriculum Overview
 
