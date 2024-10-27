@@ -1,0 +1,1 @@
+Good for building complex workflows without having to build and maintain our own infrastructure. The *Step Functions Data Science SDK* can be used to build ML pipelines from Python environments like Jupyter Notebooks.

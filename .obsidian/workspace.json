@@ -10,15 +10,45 @@
           {
             "id": "efd4bf2eadc4a2c1",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024-10-26.md",
+                "file": "Topic Notes/Books/Data Science on AWS.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Data Science on AWS"
+            }
+          },
+          {
+            "id": "80079164643e11bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic Notes/MLOps/Airflow/Apache Airflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-26"
+              "title": "Apache Airflow"
+            }
+          },
+          {
+            "id": "e10640d99ae3d45d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic Notes/MLOps/MLFlow/MLflow Workflows.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MLflow Workflows"
             }
           }
         ]
@@ -52,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "MLFlow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +103,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,9 +193,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b806eaaf29988f4e",
+  "active": "efd4bf2eadc4a2c1",
   "lastOpenFiles": [
+    "Topic Notes/MLOps/Airflow/Apache Airflow.md",
+    "Topic Notes/MLOps/MLFlow/MLflow Workflows.md",
+    "Topic Notes/MLOps/AWS/AWS Lambda.md",
     "Topic Notes/Books/Data Science on AWS.md",
+    "Topic Notes/MLOps/AWS/Amazon MWAA.md",
+    "Topic Notes/MLOps/AWS/Amazon EKS.md",
+    "Topic Notes/MLOps/Kubernetes/Kubeflow Pipelines.md",
+    "Topic Notes/MLOps/AWS/AWS Step Functions.md",
+    "Topic Notes/MLOps/AWS/Amazon SageMaker.md",
+    "Topic Notes/MLOps/MLFlow",
+    "Topic Notes/MLOps/AWS/Amazon EC2.md",
+    "Topic Notes/MLOps/_Other/Untitled.md",
+    "Topic Notes/MLOps/_Other",
+    "Topic Notes/MLOps/Data Ingestion/Data Lifecycle.md",
+    "Daily Notes/2024-10-26.md",
     "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/README.md",
     "README.md",
     "Topic Notes/MLOps/Data Storage/Use Cases.md",
@@ -178,11 +221,8 @@
     "Topic Notes/MLOps/Kubernetes",
     "Topic Notes/MLOps/Docker",
     "Topic Notes/MLOps",
-    "Topic Notes/Programming/Languages/R",
-    "Topic Notes/Programming/Languages/Scala",
     "Topic Notes/MLOps/AWS/Amazon S3.md",
     "Topic Notes/MLOps/AWS/Amazon EFS.md",
-    "Topic Notes/MLOps/Data Ingestion/Data Lifecycle.md",
     "Topic Notes/MLOps/AWS/Amazon Redshift.md",
     "Topic Notes/MLOps/AWS/Amazon DynamoDB.md",
     "Topic Notes/MLOps/AWS/Amazon RDS.md",
@@ -191,17 +231,6 @@
     "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/AWS Training Recommendations.md",
     "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/Module 2 - Refresh Your AWS Knowledge and Skills/AWS ML Engineer Associate Curriculum Overview/README.md",
     "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/Module 2 - Refresh Your AWS Knowledge and Skills/Domain 1 - Data Preparation for ML/README.md",
-    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/1.1 - Ingest and Store Data.md",
-    "Topic Notes/Cool SQL/notes.md",
-    "Daily Notes/2024-10-26.md",
-    "Notes/AWS Course - Certified Machine Learning Engineer.md",
-    "Daily Notes/2024-10-23.md",
-    "Daily Notes/2024-09-21.md",
-    "Notes/ChatGPT Language Assistant Prompt.md",
-    "Daily Notes/2024-09-20.md",
-    "Daily Notes/2024-09-19.md",
-    "Daily Notes/2024-09-18.md",
-    "Notes/Identity.md",
     "Untitled.canvas",
     "Files/Pasted image 20231017183517.png"
   ]
