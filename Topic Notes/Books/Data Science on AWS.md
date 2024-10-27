@@ -31,7 +31,70 @@ Deployment >> Serving >> Monitoring >> Logging
 
 ### [[AWS Step Functions]]
 
+### [[TensorFlow Extended (TFX)]]
+
+### [[Topic Notes/MLOps/Data Flows/Human-in-the-loop Workflows|Human-in-the-loop Workflows]]
+
 ## MLOps Best Practices
+
+MLOps emerged to describe the unique challenges of operating "software plus data" systems like AI/ML. With MLOps, we are developing the end-to-end architecture for automated model training, model hosting, and pipeline monitoring.
+#### 3 Stages of Maturity of MLOps
+1. MLOps v1.0
+Manually build, train, tune and deploy models.
+2. MLOps v2.0
+Manually build and orchestrate model pipelines.
+3. Automatically run pipelines when new data arrives or code changes from deterministic triggers such as GitOps or when models start to degrade in performance based on statistical triggers such as drift, bias, and explainability divergence.
+
+### Operational Excellence 
+
+ 1. Data Quality Checks
+
+Poor quality data leads to many failed projects. Stay ahead of these issues early in the pipeline
+
+ 2. Start simple and reuse existing solutions
+
+Start with the simplest solution, no need to reinvent the wheel unnecessarily. Leverage existing managed services like [[Amazon SageMaker]].
+
+ 3. Define model performance metrics
+
+Map metrics to business objectives, and continuously monitor these metrics. There should be a strategy to trigger model invalidations and retrain models when performance degrades.
+
+4. Track and version everything
+
+Track model development trough experiments and lineage tracking. We should also version our datasets, feature-transformation code, hyper-parameters, and trained models.
+
+5. Select appropriate hardware for both model training and model serving
+
+Often, model training has different infrastructure requirements than does model-prediction serving.
+
+6. Continuously monitor deployed models
+
+Detect data drift and model drift, and take appropriate action such as model retraining.
+
+7. Automate machine learning workflows
+
+Build consistent, automated pipelines to reduce human error and free up time to focus on the hard problems. Pipelines can include human-approval steps for approving models before pushing them to production.
+
+### Security
+
+>Security and compliance is a shared responsibility between AWS and the customer
+
+AWS ensures the security "*of*" the cloud, while the customer is responsible for security "*in*" the cloud. The most common security considerations:
+* Access Management
+* Compute and Network Isolation
+* Encryption
+* Governance
+* Auditability
+
+### Reliability
+
+The ability of a system to recover from infrastructure or service disruptions, acquire computing resources dynamically to meet demand, and mitigate disruptions such as misconfigurations or transient network issues.
+
+We should automate change tracking and versioning for our training data. This way, we can re-create the exact version of a model in the event of a failure. We will build once and use the model artifacts to deploy the model across multiple AWS accounts and environments.
+
+### Performance Efficiency
+
+Refers to the efficient use of computing resources to meet requirements and how to maintain that efficiency as demand changes and technologies evolve. For example, we can use GPU-based instances to more efficiently train deep learning models using a larger queue depth, higher arithmetic logic units, and increased register counts.
 
 ## Amazon AI Services and AutoML with [[Amazon SageMaker]]
 
@@ -69,7 +132,7 @@ Deployment >> Serving >> Monitoring >> Logging
 
 # Chapter 11: Streaming Analytics and Machine Learning
 
-# Chap
+# Chapter 12: Secure Data Science on AWS
 
 
 
