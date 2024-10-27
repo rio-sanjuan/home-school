@@ -24,36 +24,21 @@
             }
           },
           {
-            "id": "e10640d99ae3d45d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic Notes/MLOps/AWS/Amazon A2I.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Amazon A2I"
-            }
-          },
-          {
-            "id": "86b0e468c8ee484c",
+            "id": "cd56c5f5cde7e970",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/MLOps/Data Flows/Human-in-the-loop Workflows.md",
+                "file": "Daily Notes/2024-10-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Human-in-the-loop Workflows"
+              "title": "2024-10-27"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MLFlow",
+                "query": "Devops",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,45 +180,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a972992ff9d6f4cb",
+  "active": "cd56c5f5cde7e970",
   "lastOpenFiles": [
-    "Topic Notes/MLOps/Security",
-    "Topic Notes/MLOps/Data Flows/Human-in-the-loop Workflows.md",
-    "Topic Notes/MLOps/AWS/Amazon A2I.md",
+    "Topic Notes/Books/Data Science on AWS.md",
+    "Daily Notes/2024-10-27.md",
+    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/AWS Training Recommendations.md",
+    "Topic Notes/MLOps/AWS/Amazon DevOps Guru.md",
+    "Topic Notes/DevOps",
+    "Topic Notes/Programming/Practices",
+    "Topic Notes/MLOps/AWS/Amazon EC2.md",
+    "Topic Notes/Machine Learning/Graphs",
+    "Topic Notes/Machine Learning/Graphs.md",
+    "Topic Notes/MLOps/AWS/AWS Deequ.md",
+    "Topic Notes/MLOps/AWS/Amazon Fraud Detector.md",
+    "Topic Notes/MLOps/AWS/Amazon Forecast.md",
+    "Topic Notes/MLOps/AWS/Amazon Personalize.md",
+    "Topic Notes/MLOps/AWS/Amazon Lex.md",
+    "Topic Notes/MLOps/AWS/Amazon Kendra.md",
     "Topic Notes/MLOps/AWS/Amazon Textract.md",
+    "Topic Notes/MLOps/AWS/Amazon Translate.md",
+    "Topic Notes/MLOps/AWS/Amazon Comprehend Medical.md",
+    "Topic Notes/MLOps/AWS/Amazon Transcribe Medical.md",
+    "Topic Notes/MLOps/AWS/Amazon Polly.md",
+    "Topic Notes/MLOps/AWS/Amazon Rekognition.md",
+    "Topic Notes/MLOps/AWS/Amazon CodeGuru.md",
+    "Topic Notes/MLOps/AWS/Amazon Lookout for Metrics.md",
+    "Topic Notes/MLOps/AWS/Amazon Lookout for Vision.md",
+    "Topic Notes/MLOps/AWS/Amazon Lookout for Equipment.md",
+    "Topic Notes/MLOps/AWS/Amazon Monitron.md",
+    "Notes/Untitled.md",
+    "Topic Notes/MLOps/AWS/AWS Panorama+Appliance.md",
+    "Topic Notes/MLOps/AWS/Amazon HealthLake.md",
+    "Topic Notes/MLOps/Security",
     "Topic Notes/MLOps/Data Flows",
     "Untitled.canvas",
-    "Topic Notes/MLOps/AWS/Amazon Rekognition.md",
-    "Topic Notes/MLOps/AWS/AWS IAM.md",
-    "Topic Notes/MLOps/AWS/AWS Identity.md",
-    "Topic Notes/MLOps/Other/Human-in-the-Loop Workflows.md",
-    "Topic Notes/MLOps/Libraries/TensorFlow Extended (TFX).md",
     "Topic Notes/MLOps/Other",
-    "Topic Notes/Programming/Untitled",
-    "Topic Notes/MLOps/MLFlow/MLflow Workflows.md",
     "Topic Notes/MLOps/Libraries",
-    "Topic Notes/MLOps/AWS/Amazon MWAA.md",
-    "Topic Notes/Books/Data Science on AWS.md",
-    "Topic Notes/MLOps/Airflow/Apache Airflow.md",
-    "Topic Notes/MLOps/AWS/AWS Lambda.md",
-    "Topic Notes/MLOps/AWS/Amazon EKS.md",
-    "Topic Notes/MLOps/Kubernetes/Kubeflow Pipelines.md",
-    "Topic Notes/MLOps/AWS/AWS Step Functions.md",
-    "Topic Notes/MLOps/AWS/Amazon SageMaker.md",
     "Topic Notes/MLOps/MLFlow",
-    "Topic Notes/MLOps/AWS/Amazon EC2.md",
-    "Topic Notes/MLOps/_Other/Untitled.md",
     "Topic Notes/MLOps/_Other",
-    "Topic Notes/MLOps/Data Ingestion/Data Lifecycle.md",
-    "Daily Notes/2024-10-26.md",
-    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/README.md",
-    "README.md",
-    "Topic Notes/MLOps/Data Storage/Use Cases.md",
     "Topic Notes/Programming/Algorithms",
-    "Topic Notes/MLOps/Git",
-    "Topic Notes/MLOps/Jenkins",
-    "Topic Notes/MLOps/Terraform",
-    "Topic Notes/MLOps/AWS/Amazon S3.md",
     "Files/Pasted image 20231017183517.png"
   ]
 }
