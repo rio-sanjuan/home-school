@@ -68,6 +68,20 @@
               "icon": "lucide-file",
               "title": "Amazon S3"
             }
+          },
+          {
+            "id": "3ae3d1fc02819b25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic Notes/MLOps/AWS/Amazon EBS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon EBS"
+            }
           }
         ],
         "currentTab": 2
@@ -214,9 +228,10 @@
   },
   "active": "96e83b29f376dd1d",
   "lastOpenFiles": [
+    "Topic Notes/MLOps/AWS/Amazon EBS.md",
+    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/Domain 1 - Data Preparation for ML.md",
     "Topic Notes/MLOps/AWS/Amazon S3.md",
     "Topic Notes/MLOps/AWS/AWS Outposts.md",
-    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/Domain 1 - Data Preparation for ML.md",
     "Topic Notes/MLOps/AWS/Amazon EFS.md",
     "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/README.md",
     "Topic Notes/MLOps/AWS/Amazon SageMaker.md",
@@ -240,7 +255,6 @@
     "Topic Notes/MLOps/AWS/Amazon Redshift.md",
     "Topic Notes/Programming/Libraries/PyAthena.md",
     "Topic Notes/MLOps/AWS/AWS Data Wrangler.md",
-    "Topic Notes/Programming/Libraries/Matplotlib.md",
     "Topic Notes/Programming/Libraries",
     "Topic Notes/Papers",
     "Topic Notes/DevOps",
