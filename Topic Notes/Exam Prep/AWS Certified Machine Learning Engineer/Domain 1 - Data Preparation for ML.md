@@ -33,11 +33,17 @@ The second step is Storage. For this exam, ensure you can choose an appropriate 
 
 #### Object
 1. [[Amazon S3]]
+
+Stores data as objects, where each object consists of a file, metadata, and a unique identifier. Ideal for unstructured data like images, videos, backups, big data analytics, and static web content. Highly scalable with built-in data redundancy. Highly scalable with built-in data redundancy. Accessed through an API (HTTP/HTTPS), not directly mountable. Cost-effective, with features like versioning, cross-region replication, and fine-grained access control.
 #### Block
 1. [[Amazon EBS]]
+
+Stores data in blocks, similar to a physical hard drive, allowing data to be split and distributed in blocks. Suitable for high-performance applications like databases, virtual machines, and applications needed low-latency, persistent storage. Scales based on volume, and is generally used with a single [[Amazon EC2]] instance. Mountable as a file system by an operating system. High-performance I/O operations, consistency, and low-latency access, making it ideal for applications requiring quick data retrieval.
 #### File
 1. [[Amazon EFS]]
 2. [[Amazon FSx]]
+
+Stores data in a hierarchical file system structure, similar to traditional file systems. Best for shared storage across multiple instances, enterprise applications, media processing, and content management. Automatically scalable, allowing multiple EC2 instances to access the same file system. It supports [[Network File System (NFS)]] (EFS) or [[Server Message Block (SMB)]] (FSx for Windows). Offers shared access to files with scalable performance, seamless integration with AWS services, and compatibility with applications requiring file-based storage.
 #### Backup
 1. [[AWS Backup]]
 #### Data Transfer and Migration
@@ -59,6 +65,32 @@ Resources:
 2. [Choosing an AWS storage service (whitepaper)](https://docs.aws.amazon.com/decision-guides/latest/storage-on-aws-how-to-choose/choosing-aws-storage-service.html) 
 
 AWS offers a broad portfolio of reliable, scalable, and secure storage services for storing, accessing, protecting, and analyzing your data. This makes it easier to match your storage methods with your needs, and provides storage options that are not easily achievable with on-premises infrastructure. When selecting a storage service, ensuring that it aligns with your access patterns will be critical to achieving the performance you want. You can select from block, file, and object storage services as well as cloud data migration options for your workload. Choosing the right storage service for your workload requires you to make a series of decisions based on your business needs.
+
+### Common Misconceptions
+
+>I absolutely need multi-protocol access to my file shares.
+
+> Mission-critical applications require a SAN on premises.
+
+> AWS doesn't offer deduplication capability for storage.
+
+> My application is latency-sensitive and won't work in the cloud.
+
+### Decision Criteria
+1. Protocol
+2. Client type
+3. IOPS/access patterns
+4. Latency
+5. Throughput or bandwidth
+6. Geographic scale/data sovereignty
+7. Migration strategy and risks
+8. Backup/protection requirements
+9. Disaster recovery
+10. Security
+11. Applications (including certifications)
+12. Workflow
+13. Cost-optimization strategies
+14. Cloud-native layered services?
 
 ## Use Cases
 
