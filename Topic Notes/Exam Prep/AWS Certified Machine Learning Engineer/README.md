@@ -1,9 +1,6 @@
-# Get to know the exam with exam-styled questions
-
 By #JulieElkins
 
 Exam results are reported between 100-1,000. A passing score is 720.
-
 ## Domain Overview
 
 ### 1. Data Preparation for Machine Learning (ML): 28% of the Exam
