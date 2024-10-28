@@ -30,16 +30,36 @@ The second step is Storage. For this exam, ensure you can choose an appropriate 
 
 >Which AWS storage service is best for your use case? Which format is the data in? What are the access patterns? Is the data streaming? Does the data need to be merged from multiple sources?
 ### AWS storage and database services
+
+#### Object
 1. [[Amazon S3]]
-2. [[Amazon EFS]]
-3. [[Amazon EBS]]
-4. [[Amazon RDS]]
-5. [[Amazon DynamoDB]]
-6. [[Amazon Redshift]]
+#### Block
+1. [[Amazon EBS]]
+#### File
+1. [[Amazon EFS]]
+2. [[Amazon FSx]]
+#### Backup
+1. [[AWS Backup]]
+#### Data Transfer and Migration
+1. [[AWS Storage Gateway]]
+2. [[AWS DataSync]]
+3. [[AWS Transfer Family]]
+4. [[AWS Snowball]]
+5. [[AWS Snowcone]]
+#### Other
+1. [[Amazon RDS]]
+2. [[Amazon DynamoDB]]
+3. [[Amazon Redshift]]
 
 For this exam, you need to understand the use cases and trade-offs for the AWS storage services. And for cost optimization, understand the different storage classes of those services and the lifecycle policies.
+## Choosing an AWS storage service
 
-See [Choosing an AWS storage service](https://docs.aws.amazon.com/decision-guides/latest/storage-on-aws-how-to-choose/choosing-aws-storage-service.html) .
+Resources:
+1. [AWS Summit ATL 2022 - Choosing the right AWS storage service for the job](https://www.youtube.com/watch?v=A14EbSrZeFM&t=16s)
+2. [Choosing an AWS storage service (whitepaper)](https://docs.aws.amazon.com/decision-guides/latest/storage-on-aws-how-to-choose/choosing-aws-storage-service.html) 
+
+AWS offers a broad portfolio of reliable, scalable, and secure storage services for storing, accessing, protecting, and analyzing your data. This makes it easier to match your storage methods with your needs, and provides storage options that are not easily achievable with on-premises infrastructure. When selecting a storage service, ensuring that it aligns with your access patterns will be critical to achieving the performance you want. You can select from block, file, and object storage services as well as cloud data migration options for your workload. Choosing the right storage service for your workload requires you to make a series of decisions based on your business needs.
+
 ## Use Cases
 
 ```
