@@ -107,7 +107,18 @@ For on-demand instances, we pay for compute capacity by the hour or second deman
 See [[Amazon EC2#Spot Instances]]
 ## Amazon AI Services and AutoML with [[Amazon SageMaker]]
 
+"*AutoML*" commonly refers to the effort of automating the typical steps of a model development workflow.
 ## Data Ingestion, Exploration, and Preparation in AWS
+
+Covered in more detail in [[Data Science on AWS#Chapter 4 Ingest Data into the Cloud]], [[Data Science on AWS#Chapter 5 Explore the Dataset]], and [[Data Science on AWS#Chapter 6 Prepare the Dataset for Model Training]].
+
+### Data Ingestion and Data Lakes with [[Amazon S3]] and [[AWS Lake Formation]]
+
+>Business success is often closely related to a company's ability to quickly extract value from their data.
+
+This is why many companies are moving to a highly scalable, available, secure, and flexible data store, often called a *data lake*.
+
+A *data lake* is a centralized and secure repository that enables us to store, govern, discover, and share data at any scale. With a data lake, we can run any kind of analytics efficiently, and use multiple AWS services without having to transform and deploy more accurate models.
 
 ## Model Training and Tuning with [[Amazon SageMaker]]
 
