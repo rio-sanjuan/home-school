@@ -1,0 +1,1 @@
+Builds on top of [[Matplotlib]] and adds support for additional statistical graphics-as well as an easier-to-use programming model.

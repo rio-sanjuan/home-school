@@ -1,19 +1,20 @@
-## SageMaker Pipelines
+Amazon SageMaker offers us a hosted managed Jupyter environment and an integrated development environment with [[Amazon SageMaker#Studio]].
+## Pipelines
 
 SageMaker Pipelines are the standard, full-featured, and most complete way to implement AI/ML pipelines in SageMaker.
+## Studio
+## Feature Store
 
-## SageMaker Feature Store
+## Data Wrangler
 
-## SageMaker Data Wrangler
+## Processing Jobs
 
-## SageMaker Processing Jobs
+## Training Jobs
 
-## SageMaker Training Jobs
+## Hyper-Parameter Tuning Jobs
 
-## SageMaker Hyper-Parameter Tuning Jobs
+## Model Registry
 
-## SageMaker Model Registry
+## Batch Transform
 
-## SageMaker Batch Transform
-
-## SageMaker Model Endpoints
+## Model Endpoints

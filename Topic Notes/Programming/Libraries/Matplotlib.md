@@ -1,0 +1,1 @@
+Lets us create static, animated, and interactive visualizations in Python.

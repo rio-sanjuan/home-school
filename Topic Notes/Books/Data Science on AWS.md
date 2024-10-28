@@ -120,6 +120,14 @@ This is why many companies are moving to a highly scalable, available, secure, a
 
 A *data lake* is a centralized and secure repository that enables us to store, govern, discover, and share data at any scale. With a data lake, we can run any kind of analytics efficiently, and use multiple AWS services without having to transform and deploy more accurate models.
 
+We can use the [[AWS Lake Formation]] service to create data lakes. We can leverage [[AWS Glue]] to automatically discover and profile new data. This ad hoc exploration and prototyping can be done from development environments such as [[Amazon SageMaker#Studio]], [[AWS Glue#DataBrew]], and [[Amazon SageMaker#Data Wrangler]].
+
+### Data Analysis with [[Amazon Athena]], [[Amazon Redshift]], and [[Amazon QuickSight]]
+
+In the data analysis step, we explore our data, collect statistics, check for missing values, calculate quantiles, and identify data correlations. We call this "*ad hoc*" exploration and prototyping, where we query parts of our data to get a first understanding of the data schema and data quality for our specific machine learning problem at hand. We then develop model code and ensure it is functionally correct.
+
+Note that libraries like [[Pandas]] use in-memory data structures (*DataFrames*) to hold and manipulate data.
+
 ## Model Training and Tuning with [[Amazon SageMaker]]
 
 ## Model Deployment with [[Amazon SageMaker]] and [[AWS Lambda]] Functions

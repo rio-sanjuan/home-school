@@ -1,0 +1,1 @@
+We can use the AWS Lake Formation service to create data lakes. The service helps collect and catalog data from both databases and object storage. Lake Formation not only moves our data but also cleans, classifies, and secures access to our sensitive data using machine learning algorithms.
