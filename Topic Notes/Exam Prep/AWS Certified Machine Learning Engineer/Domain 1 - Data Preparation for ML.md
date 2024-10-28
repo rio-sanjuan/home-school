@@ -70,7 +70,7 @@ AWS offers a broad portfolio of reliable, scalable, and secure storage services 
 
 >I absolutely need multi-protocol access to my file shares.
 
-> Mission-critical applications require a SAN on premises.
+> Mission-critical applications require a [[Storage Area Network (SAN)]] on premises.
 
 > AWS doesn't offer deduplication capability for storage.
 
@@ -91,6 +91,21 @@ AWS offers a broad portfolio of reliable, scalable, and secure storage services 
 12. Workflow
 13. Cost-optimization strategies
 14. Cloud-native layered services?
+
+### Common Customer Scenarios
+
+#### Scenario 1: Migrating existing applications to the cloud
+
+1. Existing applications with data on a [[Storage Area Network (SAN)]] or direct-attached storage
+2. Existing applications with data on a [[Network Attached Storage (NAS)]] or file share
+
+#### Scenario 2: Backing up data to the cloud
+
+#### Scenario 3: Hybrid - using cloud storage with on-premises applications
+
+#### Scenario 4: Building a data lake
+
+#### Scenario 5: Building a new application
 
 ## Use Cases
 

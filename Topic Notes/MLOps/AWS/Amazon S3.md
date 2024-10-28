@@ -22,6 +22,8 @@ Use Amazon S3 Glacier for data archiving use cases and the low cost archive stor
 Use Amazon S3 on Outposts for local data processing and data residency use cases in your on-premises [[AWS Outposts]] environments.
 ## Storage Classes
 
+## Storage Lens
+
 ## Lifecycle Policies
 
 ## Security

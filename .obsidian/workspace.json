@@ -54,6 +54,36 @@
               "icon": "lucide-file",
               "title": "Domain 1 - Data Preparation for ML"
             }
+          },
+          {
+            "id": "2ede56426824305a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic Notes/MLOps/AWS/Amazon EBS.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Amazon EBS"
+            }
+          },
+          {
+            "id": "cd1ed0e946ad2428",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic Notes/MLOps/AWS/AWS KMS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AWS KMS"
+            }
           }
         ],
         "currentTab": 2
@@ -87,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Generation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,15 +230,21 @@
   },
   "active": "96e83b29f376dd1d",
   "lastOpenFiles": [
+    "Files/Pasted image 20241028110635.png",
+    "Topic Notes/MLOps/AWS/Amazon EBS.md",
+    "Topic Notes/MLOps/AWS/AWS KMS.md",
+    "Topic Notes/MLOps/Data Storage/Network Attached Storage (NAS).md",
+    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/Domain 1 - Data Preparation for ML.md",
+    "Topic Notes/MLOps/Data Storage/Storage Area Network (SAN).md",
+    "Topic Notes/MLOps/AWS/Amazon S3.md",
+    "Topic Notes/MLOps/Apache/Apache Airflow.md",
+    "Topic Notes/MLOps/Apache",
     "Topic Notes/MLOps/Data Flows/Server Message Block (SMB).md",
     "Topic Notes/MLOps/Data Flows/Network File System (NFS).md",
-    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/Domain 1 - Data Preparation for ML.md",
     "Topic Notes/MLOps/AWS/AWS Snowcone.md",
     "Topic Notes/MLOps/AWS/AWS Snowball.md",
     "Topic Notes/MLOps/AWS/AWS Transfer Family.md",
     "Topic Notes/MLOps/AWS/AWS DataSync.md",
-    "Topic Notes/MLOps/AWS/Amazon S3.md",
-    "Topic Notes/MLOps/AWS/Amazon EBS.md",
     "Topic Notes/MLOps/AWS/Amazon FSx.md",
     "Topic Notes/MLOps/AWS/AWS Storage Gateway.md",
     "Topic Notes/MLOps/AWS/AWS Backup.md",
@@ -222,11 +258,6 @@
     "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/AWS-Certified-Machine-Learning-Engineer-Associate_Exam-Guide.pdf",
     "Topic Notes/Books/Data Science on AWS.md",
     "Topic Notes/MLOps/AWS/AWS Glue.md",
-    "Notes/What's your favorite food?.md",
-    "Notes/What is Statistics.md",
-    "Notes/Tips for Madrid.md",
-    "Notes/Designing ML Systems - Model Deployment.md",
-    "Notes/AWS Course - Certified Machine Learning Engineer.md",
     "Topic Notes/Programming/Libraries",
     "Topic Notes/Papers",
     "Topic Notes/DevOps",
@@ -236,7 +267,6 @@
     "Topic Notes/MLOps/Data Flows",
     "Untitled.canvas",
     "Topic Notes/MLOps/Other",
-    "Topic Notes/MLOps/Libraries",
     "Files/Pasted image 20231017183517.png"
   ]
 }
