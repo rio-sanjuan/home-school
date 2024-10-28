@@ -3,6 +3,8 @@ Amazon SageMaker offers us a hosted managed Jupyter environment and an integrate
 
 SageMaker Pipelines are the standard, full-featured, and most complete way to implement AI/ML pipelines in SageMaker.
 ## Studio
+
+## Canvas
 ## Feature Store
 
 ## Data Wrangler

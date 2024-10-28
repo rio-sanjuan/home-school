@@ -29,7 +29,15 @@ The second step is Storage. For this exam, ensure you can choose an appropriate 
 * Serialization
 
 >Which AWS storage service is best for your use case? Which format is the data in? What are the access patterns? Is the data streaming? Does the data need to be merged from multiple sources?
-### AWS storage and database services
+
+## Programming Concepts in AWS
+
+* **Ingestion**: [[AWS Lambda]]
+* **Processing**: [[Amazon EMR]], [[AWS Glue]], [[Apache Spark]], [[Amazon Kinesis]]
+* **Transformations**: AWS Glue
+* **Storage**: [[Amazon S3]], [[Amazon RDS]], [[Amazon Redshift]]
+* **Orchestration**: [[AWS Step Functions]]
+## AWS storage and database services
 
 #### Object
 1. [[Amazon S3]]
@@ -59,7 +67,6 @@ Stores data in a hierarchical file system structure, similar to traditional file
 
 For this exam, you need to understand the use cases and trade-offs for the AWS storage services. And for cost optimization, understand the different storage classes of those services and the lifecycle policies.
 
-
 ## Choosing an AWS storage service
 
 ### Structured Data
@@ -78,7 +85,6 @@ For this exam, you need to understand the use cases and trade-offs for the AWS s
 * [[Amazon Rekognition]]
 * [[Amazon Transcribe]]
 * [[Amazon Comprehend]]
-
 ## Resources for Choosing an AWS Storage Service
 
 1. [AWS Summit ATL 2022 - Choosing the right AWS storage service for the job](https://www.youtube.com/watch?v=A14EbSrZeFM&t=16s)
@@ -129,6 +135,9 @@ AWS offers a broad portfolio of reliable, scalable, and secure storage services 
 
 #### Scenario 5: Building a new application
 
+## Streaming Data Services
+
+> Ensure you understand how to use AWS streaming data sources to ingest data, such as [[Amazon Kinesis]], [[Apache Flink]], and [[Apache Kafka]]
 ## Use Cases
 
 ```
@@ -153,4 +162,29 @@ Let's pause and look at two key phrases for this scenario question. "Immediate a
 
 What if we added another requirement for the storage solution to support SQL querying capabilities? Well, with Amazon S3, you can use [[Amazon Athena]] for ad hoc SQL queries. You cannot run SQL queries in [[Amazon DynamoDB]] unless you use [[PartiQL]]. And for [[Amazon Redshift]], it does support SQL queries, but would not be the best-choice answer.
 
+```
+You are using Amazon data Firehose delivery stream to ingest GZIP compressed data records from an on-premises application. You need to configure a solution for your data scientist to perform SQL queries against the data stream for real-time insights.
+
+What is your solution?
+```
+
+One solution is to use the AWS Managed Service for [[Apache Flink]] application and a [[AWS Lambda]] function to transform the data before it is processed by the SQL code, and then send the data to the application for real-time analysis.
+
+Another solution might be to store the data in an S3 bucket and use [[Amazon Athena]] to run queries. This would work, but remember, a keyword for this scenario question was real-time. And Athena does not provide real-time insights. Also, Athena cannot consume data directly from the Firehose delivery stream in real-time.
+
+```
+Can you migrate data to Amazon S3 using AWS Database Migration Service from an on-premises or other supported database sources?
+```
+
+Yes, one solution is to use Amazon S3 as a target in an [[AWS DMS]] task, and both full load and change data capture data is written to comma-separated value format by default. For more compact storage and faster queries, you can use Apache Parquet as the storage format. And after that data is migrated from AWS DMS to Amazon S3, you can use Amazon SageMaker, which has a faster Pipe mode implementation that accelerates the data transfer speeds for data that is streamed from Amazon S3 into SageMaker. This helps your training jobs start sooner, finish quicker, require less disk space, and reduces your cost to train machine learning models on SageMaker.
+
+```
+You are a machine learning engineer and you need to process a large amount of customer data, analyze the data, and get insights so that analysts can make further decisions. To accomplish this task, you need to store the data in a data structure that can handle large volumes of data and efficiently retrieve it as fast as possible.
+
+What is your solution?
+```
+
+One solution is to use [[Amazon EMR]] with [[Apache Hadoop]] Distributed File System to store the data and then you can process the data to extract insights. You choose the appropriate algorithm, such as the MapReduce algorithm, to process the data in your data processing pipelines. Finally, you optimize the performance of your data processing pipeline by using techniques such as data partitioning, caching, and parallel processing. For this task statement, you also need to understand how to ingest data into [[Amazon SageMaker#Canvas]] and [[Amazon SageMaker#Feature Store]]. In SageMaker, records are added to your feature groups through ingestion, depending on the use case, storage configuration, and more.
+
+Or you can use the [[Amazon SageMaker#Data Wrangler]] experience in Canvas to engineer features and then ingest your features into your [[Amazon SageMaker#Feature Store]]. After the feature group has been created, you can also select and join data across multiple feature groups to create new engineered features in SageMaker Canvas and then export your dataset to an S3 bucket. Is there another way to bring your data into Feature Store? Yes, you can also use Amazon EMR for batch data ingestion through an [[Apache Spark]] connector.
 # 1.2: Transform Data and Perform Feature Engineering
