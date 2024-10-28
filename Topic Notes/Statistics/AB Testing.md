@@ -1,5 +1,3 @@
-# A/B Testing ([wiki](https://en.wikipedia.org/wiki/A/B_testing))
-
 - a.k.a. bucket testing, split-run testing, or split testing
 - See https://github.com/FrancescoCasalegno/AB-Testing/blob/main/AB_Testing.ipynb
 
@@ -12,3 +10,7 @@
 ## Continuous metrics
 
 ## Data distribution vs stats distribution
+
+## Resources
+
+1. [Wikipedia](https://en.wikipedia.org/wiki/A/B_testing)

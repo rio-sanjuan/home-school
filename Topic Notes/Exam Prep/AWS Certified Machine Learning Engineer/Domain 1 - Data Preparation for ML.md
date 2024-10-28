@@ -58,9 +58,29 @@ Stores data in a hierarchical file system structure, similar to traditional file
 3. [[Amazon Redshift]]
 
 For this exam, you need to understand the use cases and trade-offs for the AWS storage services. And for cost optimization, understand the different storage classes of those services and the lifecycle policies.
+
+
 ## Choosing an AWS storage service
 
-Resources:
+### Structured Data
+* [[Amazon RDS]]
+* [[Amazon Aurora]]
+* [[Amazon Redshift]]
+* [[Amazon S3]]
+* [[Amazon Athena]]
+### Semi-Structured
+* [[Amazon DynamoDB]]
+* [[Amazon DocumentDB]]
+* Amazon Athena
+* Amazon S3
+### Unstructured
+* Amazon S3
+* [[Amazon Rekognition]]
+* [[Amazon Transcribe]]
+* [[Amazon Comprehend]]
+
+## Resources for Choosing an AWS Storage Service
+
 1. [AWS Summit ATL 2022 - Choosing the right AWS storage service for the job](https://www.youtube.com/watch?v=A14EbSrZeFM&t=16s)
 2. [Choosing an AWS storage service (whitepaper)](https://docs.aws.amazon.com/decision-guides/latest/storage-on-aws-how-to-choose/choosing-aws-storage-service.html) 
 
@@ -98,6 +118,8 @@ AWS offers a broad portfolio of reliable, scalable, and secure storage services 
 
 1. Existing applications with data on a [[Storage Area Network (SAN)]] or direct-attached storage
 2. Existing applications with data on a [[Network Attached Storage (NAS)]] or file share
+
+![[Pasted image 20241028110635.png]]
 
 #### Scenario 2: Backing up data to the cloud
 
