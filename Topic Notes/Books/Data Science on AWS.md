@@ -126,9 +126,21 @@ We can use the [[AWS Lake Formation]] service to create data lakes. We can lever
 
 In the data analysis step, we explore our data, collect statistics, check for missing values, calculate quantiles, and identify data correlations. We call this "*ad hoc*" exploration and prototyping, where we query parts of our data to get a first understanding of the data schema and data quality for our specific machine learning problem at hand. We then develop model code and ensure it is functionally correct.
 
-Note that libraries like [[Pandas]] use in-memory data structures (*DataFrames*) to hold and manipulate data.
+Note that libraries like [[Pandas]] use in-memory data structures (*DataFrames*) to hold and manipulate data, so we need to be careful how much is loaded at once.
 
+### Evaluate Data Quality with [[AWS Deequ]] and [[Amazon SageMaker#Processing Jobs]]
+
+We need high-quality data to build high-quality models. Before we create our training dataset, we want to ensure our data meets certain quality constraints. In software development, we run unit tests to ensure our code meets design and quality standards and behaves as expected. Similarly, we can run unit tests on our dataset to ensure the data meets our quality expectations.
+
+### Label Training Data with [[Amazon SageMaker#Ground Truth]]
+
+Many data science projects implement supervised learning, where models learn by example. We first need to collect and evaluate, then provide accurate labels. If there are incorrect labels, our ML model will learn from bad examples.
+### Data Transformation with [[AWS Glue#DataBrew]], [[Amazon SageMaker#Data Wrangler]], and [[Amazon SageMaker#Processing Jobs]].
+
+Assuming we have our data in an [[Amazon S3]] datalake, or S3 bucket, the next step is to prepare the data for model training. Data transformations might include dropping or combining data in our dataset. We might need to convert text data into word embeddings for use with natural language models. Or perhaps we might need to convert data into another format, from numerical to text representations, or vice versa.
 ## Model Training and Tuning with [[Amazon SageMaker]]
+
+Here we explore model training and tunings steps of our model development workflow in more detail and learn which AWS services and open source tools we can leverage.
 
 ## Model Deployment with [[Amazon SageMaker]] and [[AWS Lambda]] Functions
 
