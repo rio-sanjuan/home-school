@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Binary Trees"
             }
-          },
-          {
-            "id": "86d5f2ea11518f4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Company Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Company Ideas"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,10 +163,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86d5f2ea11518f4c",
+  "active": "87887bab21e3b246",
   "lastOpenFiles": [
-    "Topic Notes/Computer Science/Theory/Binary Trees.md",
     "Notes/Company Ideas.md",
+    "Topic Notes/Computer Science/Theory/Binary Trees.md",
     "Topic Notes/Computer Science/Theory/Lambda Calculus.md",
     "Topic Notes/Computer Science/Theory/Formal Languages.md",
     "Topic Notes/Computer Science/Theory/Automata Theory.md",
