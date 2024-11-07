@@ -8,69 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "efd4bf2eadc4a2c1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic Notes/Books/Data Science on AWS.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Data Science on AWS"
-            }
-          },
-          {
-            "id": "6bb93ff8d8dfce4d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "96e83b29f376dd1d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/Domain 1 - Data Preparation for ML.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Domain 1 - Data Preparation for ML"
-            }
-          },
-          {
             "id": "87887bab21e3b246",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Books/Learning Spark.md",
+                "file": "Topic Notes/Computer Science/Theory/Binary Trees.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learning Spark"
+              "title": "Binary Trees"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5
+    "width": 257.5
   },
   "right": {
     "id": "415736eaa91d276b",
@@ -214,8 +165,24 @@
   },
   "active": "87887bab21e3b246",
   "lastOpenFiles": [
-    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/Domain 1 - Data Preparation for ML.md",
+    "Topic Notes/Computer Science/Theory/Lambda Calculus.md",
+    "Topic Notes/Computer Science/Theory/Binary Trees.md",
+    "Topic Notes/Computer Science/Theory/Formal Languages.md",
+    "Topic Notes/Computer Science/Theory/Automata Theory.md",
+    "Topic Notes/Computer Science/Theory/Dynamic Programming.md",
+    "Topic Notes/Computer Science/Programming/Libraries/Seaborn.md",
+    "Topic Notes/Computer Science/Theory",
+    "Topic Notes/Computer Science/Quantum Computing",
+    "Topic Notes/Computer Science/Operating Systems",
+    "Topic Notes/Computer Science/Networking",
+    "Topic Notes/Computer Science/Human-Computer Interaction",
+    "Topic Notes/Computer Science/Graphics and Visualization",
+    "Topic Notes/Computer Science/Databases",
+    "Topic Notes/Computer Science/Cybersecurity",
+    "Topic Notes/Computer Science/Architecture",
     "Topic Notes/Books/Learning Spark.md",
+    "Topic Notes/Computer Science/Programming/Libraries",
+    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/Domain 1 - Data Preparation for ML.md",
     "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/AWS Training Recommendations.md",
     "Topic Notes/MLOps/AWS/Amazon ECR.md",
     "Topic Notes/Machine Learning/Time-Series Analysis/DeepAR.md",
@@ -234,24 +201,8 @@
     "Topic Notes/MLOps/AWS/Amazon SageMaker.md",
     "Topic Notes/MLOps/AWS/AWS DMS.md",
     "Topic Notes/MLOps/Apache/Apache Beam.md",
-    "Topic Notes/MLOps/Apache/Apache Kafka.md",
-    "Topic Notes/MLOps/Apache/Apache Flink.md",
-    "Topic Notes/MLOps/AWS/Amazon EFS.md",
-    "Topic Notes/MLOps/AWS/Amazon EBS.md",
-    "Topic Notes/MLOps/AWS/Amazon Kinesis.md",
-    "Topic Notes/MLOps/Apache/Apache Spark.md",
     "Files/Pasted image 20241028110635.png",
-    "Topic Notes/MLOps/Apache",
-    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/AWS-Certified-Machine-Learning-Engineer-Associate_Exam-Guide.pdf",
-    "Topic Notes/Programming/Libraries",
-    "Topic Notes/Papers",
-    "Topic Notes/DevOps",
-    "Topic Notes/Programming/Practices",
-    "Topic Notes/Machine Learning/Graphs",
-    "Topic Notes/MLOps/Security",
-    "Topic Notes/MLOps/Data Flows",
     "Untitled.canvas",
-    "Topic Notes/MLOps/Other",
     "Files/Pasted image 20231017183517.png"
   ]
 }
