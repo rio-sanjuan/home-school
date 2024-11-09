@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/LeetCode/Add Two Numbers.md",
+                "file": "Topic Notes/LeetCode/Medium/Add Two Numbers.md",
                 "mode": "source",
                 "source": false
               },
@@ -163,10 +163,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "802b97eba0a51b8b",
+  "active": "a972992ff9d6f4cb",
   "lastOpenFiles": [
-    "Topic Notes/LeetCode/Two Sum.md",
-    "Topic Notes/LeetCode/Add Two Numbers.md",
+    "Topic Notes/LeetCode/Hard",
+    "Topic Notes/LeetCode/Medium",
+    "Topic Notes/LeetCode/Easy",
+    "Topic Notes/LeetCode/Easy/Two Sum.md",
+    "Topic Notes/LeetCode/Medium/Add Two Numbers.md",
     "Topic Notes/Computer Science/Theory/Dynamic Programming.md",
     "Topic Notes/Computer Science/Theory/Binary Trees.md",
     "Notes/Company Ideas.md",
@@ -182,9 +185,7 @@
     "Topic Notes/Computer Science/Graphics and Visualization",
     "Topic Notes/Computer Science/Databases",
     "Topic Notes/Computer Science/Cybersecurity",
-    "Topic Notes/Computer Science/Architecture",
     "Topic Notes/Books/Learning Spark.md",
-    "Topic Notes/Computer Science/Programming/Libraries",
     "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/Domain 1 - Data Preparation for ML.md",
     "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/AWS Training Recommendations.md",
     "Topic Notes/MLOps/AWS/Amazon ECR.md",
@@ -200,7 +201,6 @@
     "Topic Notes/Machine Learning/Supervised Learning/k-Nearest Neighbors.md",
     "Topic Notes/Machine Learning/Supervised Learning/Decision Trees.md",
     "Topic Notes/Books/Data Science on AWS.md",
-    "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/README.md",
     "Files/Pasted image 20241028110635.png",
     "Untitled.canvas",
     "Files/Pasted image 20231017183517.png"
