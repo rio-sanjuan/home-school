@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "874d117160e2a9ef",
+        "id": "c1683de41e603f45",
         "type": "tabs",
         "children": [
           {
-            "id": "87887bab21e3b246",
+            "id": "802b97eba0a51b8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,14 +163,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87887bab21e3b246",
+  "active": "802b97eba0a51b8b",
   "lastOpenFiles": [
+    "Topic Notes/Computer Science/Theory/Dynamic Programming.md",
     "Topic Notes/Computer Science/Theory/Binary Trees.md",
     "Notes/Company Ideas.md",
     "Topic Notes/Computer Science/Theory/Lambda Calculus.md",
     "Topic Notes/Computer Science/Theory/Formal Languages.md",
     "Topic Notes/Computer Science/Theory/Automata Theory.md",
-    "Topic Notes/Computer Science/Theory/Dynamic Programming.md",
     "Topic Notes/Computer Science/Programming/Libraries/Seaborn.md",
     "Topic Notes/Computer Science/Theory",
     "Topic Notes/Computer Science/Quantum Computing",
