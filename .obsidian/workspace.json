@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Computer Science/Theory/Dynamic Programming.md",
+                "file": "Topic Notes/LeetCode/Two Sum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dynamic Programming"
+              "title": "Two Sum"
             }
           }
         ]
@@ -166,6 +166,7 @@
   "active": "802b97eba0a51b8b",
   "lastOpenFiles": [
     "Topic Notes/Computer Science/Theory/Dynamic Programming.md",
+    "Topic Notes/LeetCode/Two Sum.md",
     "Topic Notes/Computer Science/Theory/Binary Trees.md",
     "Notes/Company Ideas.md",
     "Topic Notes/Computer Science/Theory/Lambda Calculus.md",
@@ -200,7 +201,6 @@
     "Topic Notes/Books/Data Science on AWS.md",
     "Topic Notes/Exam Prep/AWS Certified Machine Learning Engineer/README.md",
     "Topic Notes/MLOps/AWS/Amazon SageMaker.md",
-    "Topic Notes/MLOps/AWS/AWS DMS.md",
     "Files/Pasted image 20241028110635.png",
     "Untitled.canvas",
     "Files/Pasted image 20231017183517.png"
