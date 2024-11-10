@@ -11,7 +11,6 @@ The goal is to find the set of parameters (weights and biases) that results in t
 3. **Loss Calculation**: Calculate the loss (error) between the predicted output and the actual target values using a loss function (e.g., [[Mean Squared Error]] or [[Cross-Entropy]] for classification).
 4. **Backward Pass** ([[Backpropagation]]): Compute the gradient of the loss function with respect to each model parameter. This is done using the *chain rule* in calculus and is known as backpropagation. The gradients indicate how much change in each parameter will reduce the loss.
 5. **Update Parameters**: Adjust the parameters in the opposite direction of the gradient to minimize the loss. The size of the step taken in this direction is determined by the *learning rate*.
-
 $$ θ = θ - 𝛼 \;ᐧ\;\nabla L (θ)$$
 6. **Repeat**: Repeat the process of forward pass, loss calculation, backpropagation, and parameter update for multiple iterations (epochs) until the loss converges to a minimum or the model achieves acceptable performance.
 
@@ -35,7 +34,7 @@ Choosing an appropriate learning rate is crucial. If it's too large, the algorit
 
 ## Batch Gradient Descent
 
-In BGD, the gradient is computed using the *entire training dataset* at each iteration. It's precise, but it can be computationally expensive, especially for large datasets, since you need to process the entire dataset before making any updates. The update rule is 
+In Batch Gradient Descent, the gradient is computed using the *entire training dataset* at each iteration. It's precise, but it can be computationally expensive, especially for large datasets, since you need to process the entire dataset before making any updates. The update rule is 
 
 $$
 θ = θ - \alpha\hspace{0.3em}ᐧ\hspace{0.3em} \frac{1}{m}\sum_{i=1}^{m}\nabla L(x^{(i)}, y^{(i)})
@@ -44,7 +43,7 @@ where $m$ is the number of training examples, and $x^{(i)},y^{(i)}$ are the inpu
 
 ## Stochastic Gradient Descent
 
-In SGD, the gradient is computed using only a single training example at each iteration. This makes it computationally faster, but the updates are noisy, and the path toward the minimum can be erratic. The update rule is
+In Stochastic Gradient Descent, the gradient is computed using only a single training example at each iteration. This makes it computationally faster, but the updates are noisy, and the path toward the minimum can be erratic. The update rule is
 
 $$
 θ = θ - \alpha\hspace{0.3em}ᐧ\hspace{0.3em} \nabla L(x^{(i)}, y^{(i)})
@@ -52,9 +51,9 @@ $$
 
 where $x^{(i)},y^{(i)}$ represent the current training example.
 
-## Mini-batch Gradient Descent
+## Mini-Batch Gradient Descent
 
-In mini-batch gradient descent, the gradient is computed using a small subset (mini-batch) of the training data at each iteration, typically 32, 64, or 128 samples. This provides a balance between the precision of batch gradient descent and the speed of stochastic gradient descent. The update rule is 
+In Mini-Batch Gradient Descent, the gradient is computed using a small subset (mini-batch) of the training data at each iteration, typically 32, 64, or 128 samples. This provides a balance between the precision of batch gradient descent and the speed of stochastic gradient descent. The update rule is 
 $$
 θ = θ - \alpha\hspace{0.3em}ᐧ\hspace{0.3em} \frac{1}{b}\sum_{i=1}^{b}\nabla L(x^{(i)}, y^{(i)})
 $$
