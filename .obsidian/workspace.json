@@ -10,7 +10,6 @@
           {
             "id": "802b97eba0a51b8b",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,7 +17,6 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Activation Functions"
             }
@@ -51,8 +49,7 @@
               "title": "Gradient Descent"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,12 +101,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 429.5
+    "width": 301.5
   },
   "right": {
     "id": "415736eaa91d276b",
@@ -206,13 +202,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79981436186c62ed",
+  "active": "802b97eba0a51b8b",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Optimization Algorithms/Gradient Descent.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimizers.md",
+    "Notes/ADAM.md",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
     "Topic Notes/Machine Learning/Model Evaluation/Root Mean Squared Error.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cross-Entropy.md",
     "Topic Notes/Machine Learning/Model Evaluation/Mean Squared Error.md",
-    "Topic Notes/Machine Learning/Optimization Algorithms/Gradient Descent.md",
     "Topic Notes/Machine Learning/Optimization Algorithms/Swarm Intelligence.md",
     "Topic Notes/Machine Learning/Optimization Algorithms/Genetic Algorithms.md",
     "Topic Notes/Machine Learning/Dimensionality Reduction/Manifold Learning (e.g., t-SNE)/t-SNE.md",
@@ -220,7 +218,6 @@
     "Topic Notes/Machine Learning/Deep Learning/Autoencoders.md",
     "Topic Notes/Machine Learning/Other/Machine Learning Lifecycle.md",
     "Topic Notes/Graph Theory",
-    "Topic Notes/Machine Learning/Deep Learning/Optimizers.md",
     "Topic Notes/Machine Learning/Untitled.md",
     "Topic Notes/Machine Learning/Deep Learning/Backpropagation.md",
     "Topic Notes/Machine Learning/Deep Learning/Neural Networks.md",
@@ -234,7 +231,6 @@
     "Topic Notes/Computer Science/Data Structures/Linked List.md",
     "Topic Notes/Computer Science/Data Structures/Splay Trees.md",
     "Topic Notes/Computer Science/Data Structures/Heaps.md",
-    "Topic Notes/Computer Science/Data Structures/B-Trees.md",
     "Topic Notes/Computer Science/Data Structures",
     "Topic Notes/LeetCode/Hard",
     "Topic Notes/LeetCode/Medium",
