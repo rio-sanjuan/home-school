@@ -6,23 +6,21 @@
 
 1. **Probability Distributions in Original Space:** t-SNE starts by converting the pairwise Euclidean distances between points into conditional probabilities that represent similarities. The similarity of data point \( x*j \) to data point \( x_i \) is the conditional probability, \( p*{j|i} \), that \( x_i \) would pick \( x_j \) as its neighbor if neighbors were picked in proportion to their probability density under a Gaussian centered at \( x_i \).
 
-\[
-p*{j|i} = \frac{\exp(-||x_i - x_j||^2 / 2\sigma^2)}{\sum*{k \neq i} \exp(-||x_i - x_k||^2 / 2\sigma^2)}
-\]
+$$ p*{j|i} = \frac{\exp(-||x_i - x_j||^2 / 2\sigma^2)}{\sum*{k \neq i} \exp(-||x_i - x_k||^2 / 2\sigma^2)} $$
 
 2. **Probability Distributions in Reduced Dimensional Space:** In the lower-dimensional space, a similar probability distribution is computed, but with a crucial difference: it uses a Student’s t-distribution with one degree of freedom (Cauchy distribution) instead of a Gaussian distribution to compute the similarity between two points.
 
-\[
+$$
 q*{j|i} = \frac{(1 + ||y_i - y_j||^2)^{-1}}{\sum*{k \neq i} (1 + ||y_i - y_k||^2)^{-1}}
-\]
+$$
 
-where \( y_i \) and \( y_j \) are mappings of \( x_i \) and \( x_j \) in the lower-dimensional space.
+where \( $y_i$ \) and \( $y_j$ \) are mappings of \( $x_i$ \) and \( $x_j$ \) in the lower-dimensional space.
 
 3. **Optimization (Gradient Descent):** t-SNE aims to minimize the divergence between the two distributions \( P \) (in the high-dimensional space) and \( Q \) (in the low-dimensional space) using a cost function, the Kullback-Leibler (KL) divergence:
 
-\[
+$$
 C = \sum*i \text{KL}(P_i || Q_i) = \sum_i \sum_j p*{j|i} \log \frac{p*{j|i}}{q*{j|i}}
-\]
+$$
 
 It employs a gradient descent method to minimize the cost function.
 
