@@ -19,12 +19,27 @@ The **ReLU** function $\text{ReLU} : \mathbb{R} \to [0,\infty]$ is one of the mo
 2. **Sparsity**: ReLU introduces sparsity (many neurons can be inactive at once, outputting 0), which can help with regularization
 3. **Avoids vanishing gradient**: Unlike sigmoid and tanh, ReLU does not saturate for positive values, which helps with faster learning and gradient propagation
 4. **Dying ReLU Problem**: If a neuron gets stuck in the negative input region, it will always output zero, and thus its gradient will be zero, which can prevent the neuron from learning
-## Leaky Rectified Linear Unit
+## Leaky ReLU (Parametric ReLU)
 
-## Parametric ReLU
-
+$$ \text{Leaky ReLU}(x) = \begin{cases}
+x & x > 0 \\
+𝛼 x & x \leq 0
+\end{cases} $$
+Where $\alpha$ is a small constant (typically $𝛼 = 0.01$).
+1. Similar to ReLU, but allows a small, non-zero output for negative values of the input (with slope $\alpha$).
+2. Helps to address the **Dying ReLU Problem**, ensuring that negative inputs do not completely cause neurons to become inactive
+3. $\alpha$ is a hyperparameter that controls how much negative input contributes to the output
 ## Exponential Linear Unit
+$$ \text{ELU}(x) = \begin{cases}
+x & x > 0 \\
+\alpha(e^x - 1) & x \leq 0
+\end{cases} $$
 
+1. Range of $(-𝛼, \infty)$
+2. For positive inputs, ELU behaves like ReLU. For negative inputs, it has a smooth exponential curve, which avoids the zero-centered issue of ReLU and Leaky ReLU
+3. ELU has a non-zero centered output for negative values, which can help with training dynamics
+4. It can lead to faster learning because it avoids the vanishing gradient problem for negative inputs
+5. ELU can be computationally more expensive due to the exponential function, and it may lead to slower convergence for certain tasks
 ## Softmax
 
 The standard softmax function $\sigma: \mathbb{R}^K \to (0,1)^K$, where $K \geq 1$ , takes a vector $z = (z_1, \dots z_k) ∈ \mathbb{R}^K$  and computes each component of vector $\sigma(z) ∈ (0,1)^K$ with 
@@ -40,7 +55,7 @@ The swish family of functions was designed to smoothly interpolate between a lin
 2. **tanh**: Zero-centered and often better than sigmoid, but still suffers from vanishing gradients
 3. **ReLU**: Most popular due to efficiency, though it suffers form the "dying ReLU" problem
 4. **Leaky ReLU**: Addresses dying ReLU problem by allowing small negative slope
-5. **PReLU**: Allows the negative slope to be learning, potentially improving performance
+5. **PReLU**: Allows the negative slope to be learned, potentially improving performance
 6. **ELU**: Smooth activation function that avoids some of ReLU's drawbacks, but it is computationally expensive
 7. **Softmax**: Used for multi-class classification tasks
 8. **Swish**: A newer (2016) activation function that is smooth and can outperform ReLU in certain cases
