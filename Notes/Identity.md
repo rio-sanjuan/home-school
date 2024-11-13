@@ -1,8 +1,8 @@
-## [[Identity - Guitarist]]
+## Guitarist
 
-## [[Identity - Dog Walker]]
+## Dog Walker
 
-## Data Scientist
+## Data Scientist/Machine Learning Engineer
 
 ## Indie App Developer
 

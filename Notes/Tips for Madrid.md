@@ -2,7 +2,7 @@
 
 #### El Riojano
 
-Warm melted #chocolate
+Warm melted chocolate
 
 ### Ordering Food & Drinks
 
