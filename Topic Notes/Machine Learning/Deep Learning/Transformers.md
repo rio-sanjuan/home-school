@@ -303,6 +303,10 @@ class FeedForwardBlock(nn.Module):
 
 The `FeedForwardBlock` introduces non-linearity and enhances the model's capacity to learn complex patterns.
 1. **Enhances Representational Capacity**: By increasing the dimensionality (`d_ff`) in the intermediate layer, the block allows the model to learn more complex and abstract representations of the input data.
+2. **Introduces Non-Linearity**: The ReLU activation function enables the model to capture non-linear relationships, which are essential for modeling intricate patterns in data
+3. **Regularization Through Dropout**: Dropout prevents the model from becoming overly reliant on specific neurons, promoting robustness and improving generalization to new data
+4. **Position-wise Independence**: Applied independently to each position in the sequence, the `FeedForwardBlock` ensures that transformations are consistent across all positions, maintaining the model's ability to handle variable-length sequences effectively
+5. **Integration within Transformer Layers**: As part of each Transformer encoder and decoder layer, the `FeedForwardBlock` works alongside self-attention mechanisms to process and transform data, contributing to the overall power and flexibility of the Transformer model
 ### Multi-Head Attention Block
 
 ### Residual Connection
