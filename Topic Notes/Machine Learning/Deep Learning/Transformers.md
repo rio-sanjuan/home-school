@@ -70,6 +70,17 @@ print(embedded.shape) # Output: torch.Size([2, 5, 512])
 ```
 ### Positional Encoding
 
+$$ 
+\begin{eqnarray}
+PE_{(pos,2i)} &=& \sin(\frac{pos}{10000^{\frac{2i}{d_\text{model}}}}) \\
+PE_{(pos,2i + 1)} &=& \cos(\frac{pos}{10000^{\frac{2i}{d_\text{model}}}})
+\end{eqnarray}
+$$
+where:
+* $pos$ is the position in the sequence
+* $i$ is the dimension index
+* $d_\text{model}$ is the dimensionality of the embeddings
+
 ```python
 import math
 import torch
@@ -170,8 +181,128 @@ print(embedded_with_pos.shape)  # Output: torch.Size([2, 50, 512])
 ```
 ### Layer Normalization
 
+```python
+import torch
+import torch.nn as nn
+
+class LayerNormalization(nn.Module):
+    """
+    Layer Normalization Module.
+
+    This module applies Layer Normalization over the last dimension of the input tensor. Layer Normalization normalizes the inputs across the features for each data point, maintaining the mean and variance of the input. It stabilizes and accelerates the training of deep neural networks by reducing internal covariate shift.
+
+    Args:
+        normalized_shape (int or tuple): Input shape from an expected input of size `(batch_size, ..., normalized_shape)`. If a single integer is provided, it is treated as a singleton tuple.
+        eps (float, optional): A value added to the denominator for numerical stability. Default: `1e-5`.
+        elementwise_affine (bool, optional): If `True`, this module has learnable affine parameters (weight and bias). Default: `True`.
+
+    Attributes:
+        layer_norm (nn.LayerNorm): PyTorch's built-in LayerNorm module handling the normalization.
+    """
+    def __init__(self, normalized_shape, eps: float = 1e-5, elementwise_affine: bool = True):
+        super().__init__()
+        # Utilize PyTorch's built-in LayerNorm for efficiency and reliability
+        self.layer_norm = nn.LayerNorm(normalized_shape, eps=eps, elementwise_affine=elementwise_affine)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        Forward pass for Layer Normalization.
+
+        Args:
+            x (torch.Tensor): Input tensor to be normalized.
+                              Shape: `(batch_size, ..., normalized_shape)`
+
+        Returns:
+            torch.Tensor: Normalized tensor with the same shape as input `x`.
+        """
+        return self.layer_norm(x)
+
+```
+
+Layer Normalization (LayerNorm) normalizes the inputs across the features for each individual data sample. Specifically, for a given input vector, it computes the mean and standard deviation across all its feature dimensions and uses these statistics to normalize the input. The mathematical operation can be described as: $$ \text{LayerNorm}(x) = \gamma\cdot\frac{x-\mu}{\sqrt{\sigma^2 + \epsilon}} + \beta$$where:
+* $x$ is the input vector
+* $\mu$ is the mean of $x$ across its feature dimensions
+* $\sigma^2$ is the variance of $x$ across its feature dimensions
+* $\epsilon$ is a small constant for numerical stability
+* $𝛾$ and $\beta$ are learnable scaling and shifting parameters, respectively
+
+Layer Normalization is important because it reduces internal covariate shift, leading to more stable and faster convergence during training. This stabilization allows for higher learning rates and can improve overall training efficiency. Unlike [[Batch Normalization]], which relies on batch statistics and can be sensitive to varying batch sizes, LayerNorm operates independently of the batch dimension. This makes it particularly suitable for models that process variable-length sequences or operate with small batch sizes, such as in natural language processing tasks.
+
+LayerNorm often leads to improved performance and generalization by ensuring that the activations remain within a consistent range, preventing issues like vanishing or exploding gradients.
 ### Feed Forward Block
 
+```python
+import torch
+import torch.nn as nn
+
+class FeedForwardBlock(nn.Module):
+    """
+    Feed Forward Neural Network Block for Transformer Models.
+
+    This module implements a position-wise feed-forward network as described in the Transformer architecture ("Attention Is All You Need" by Vaswani et al., 2017). It consists of two linear transformations with a ReLU activation and dropout applied in between. This block is applied independently to each position in the input sequence, allowing the model to learn complex transformations of the data.
+
+    Args:
+        d_model (int): Dimensionality of the input and output features.
+                       This should match the model's hidden size to ensure
+                       compatibility across layers.
+        d_ff (int): Dimensionality of the inner (hidden) layer.
+                   Typically larger than `d_model` to allow for richer transformations.
+        dropout (float): Dropout rate applied after the activation function
+                         for regularization to prevent overfitting.
+
+    Attributes:
+        linear_1 (nn.Linear): First linear transformation layer that projects
+                              the input from `d_model` to `d_ff` dimensions.
+        dropout (nn.Dropout): Dropout layer applied after the activation function
+                              to regularize the model.
+        linear_2 (nn.Linear): Second linear transformation layer that projects
+                              the data back from `d_ff` to `d_model` dimensions.
+    """
+    def __init__(self, d_model: int, d_ff: int, dropout: float):
+        super().__init__()
+        self.linear_1 = nn.Linear(d_model, d_ff)  # First linear transformation
+        self.dropout = nn.Dropout(dropout)        # Dropout layer for regularization
+        self.linear_2 = nn.Linear(d_ff, d_model)  # Second linear transformation
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        Forward pass through the FeedForwardBlock.
+
+        This method applies two linear transformations with a ReLU activation
+        and dropout in between. The block is applied independently to each position in the input sequence.
+
+        Args:
+            x (torch.Tensor): Input tensor of shape (batch_size, sequence_length, d_model)
+                              where:
+                              - `batch_size` is the number of samples in the batch,
+                              - `sequence_length` is the length of each input sequence,
+                              - `d_model` is the dimensionality of the model.
+
+        Returns:
+            torch.Tensor: Output tensor of shape (batch_size, sequence_length, d_model)
+                          after applying the feed-forward transformations.
+        """
+        # Apply first linear transformation
+        # Shape: (batch_size, sequence_length, d_ff)
+        hidden = self.linear_1(x)
+
+        # Apply ReLU activation
+        # Shape: (batch_size, sequence_length, d_ff)
+        activated = torch.relu(hidden)
+
+        # Apply dropout for regularization
+        # Shape: (batch_size, sequence_length, d_ff)
+        dropped = self.dropout(activated)
+
+        # Apply second linear transformation to project back to original dimension
+        # Shape: (batch_size, sequence_length, d_model)
+        output = self.linear_2(dropped)
+
+        return output
+```
+
+The `FeedForwardBlock` introduces non-linearity and enhances the model's capacity to learn complex patterns.
+1. **Enhances Representational Capacity**: By increasing the dimensionality (`d_ff`) in the intermediate layer, the block allows the model to learn more complex and abstract representations of the input data.
 ### Multi-Head Attention Block
 
 ### Residual Connection
