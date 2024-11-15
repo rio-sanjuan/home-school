@@ -26,6 +26,7 @@
           {
             "id": "db46f34fcb0297b6",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -33,6 +34,7 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Transformer"
             }
