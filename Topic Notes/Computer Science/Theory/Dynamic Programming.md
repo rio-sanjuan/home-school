@@ -5,7 +5,7 @@ Dynamic Programming (DP) is a programming paradigm that can systematically and e
 
 A classic example used to explain DP is the Fibonacci sequence. If you want to find the `nth` Fibonacci number `F(n)`, you can break it down into smaller **subproblems** - find `F(n-1)` and `F(n-2)` instead. Then, adding the solutions to these subproblems together gives the answer to the original question, `F(n) = F(n-1) + F(n-2)`, which means the problem has **optimal substructure**, since a solution `F(n)` to to the original problem can be formed from the solutions to the subproblems. These subproblems are **overlapping**.
 
-Greedy problems have optimal substructure, but not overlapping subproblems. Dive and conquer algorithms break a problem into subproblems, but these subproblems are not **overlapping** (which is why DP and divide and conquer are commonly mistaken for one another).
+Greedy problems have optimal substructure, but not overlapping subproblems. Divide and conquer algorithms break a problem into subproblems, but these subproblems are not **overlapping** (which is why DP and divide and conquer are commonly mistaken for one another).
 
 ## Top-down and Bottom-up
 
