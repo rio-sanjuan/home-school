@@ -309,6 +309,137 @@ The `FeedForwardBlock` introduces non-linearity and enhances the model's capacit
 5. **Integration within Transformer Layers**: As part of each Transformer encoder and decoder layer, the `FeedForwardBlock` works alongside self-attention mechanisms to process and transform data, contributing to the overall power and flexibility of the Transformer model
 ### Multi-Head Attention Block
 
+```python
+import math
+import torch
+import torch.nn as nn
+
+class MultiHeadAttentionBlock(nn.Module):
+    """
+    Multi-Head Attention Block for Transformer Models.
+
+    This module implements the Multi-Head Attention mechanism as described
+	    in the "Attention Is All You Need" paper by Vaswani et al. (2017). 
+	    It allows the model to jointly attend to information from different 
+	    representation subspaces at different positions. The block consists 
+	    of linear projections for queries, keys, and values, followed by
+	    scaled dot-product attention applied in parallel across multiple 
+	    heads. The outputs from all heads are concatenated and passed through
+	    a final linear transformation.
+
+    Args:
+        d_model (int): Dimensionality of the input and output features. This 
+	        should match the model's hidden size to ensure compatibility 
+	        across layers.
+        h (int): Number of attention heads. The `d_model` must be divisible 
+	        by `h`.
+        dropout (float): Dropout rate applied to the attention scores for 
+	        regularization to prevent overfitting.
+
+    Attributes:
+        d_model (int): Dimensionality of the input and output features.
+        h (int): Number of attention heads.
+        d_k (int): Dimensionality of each attention head's key/query/value
+	        vectors.
+        w_q (nn.Linear): Linear layer to project inputs to queries.
+        w_k (nn.Linear): Linear layer to project inputs to keys.
+        w_v (nn.Linear): Linear layer to project inputs to values.
+        w_o (nn.Linear): Linear layer to project concatenated outputs of 
+	        all heads.
+        dropout (nn.Dropout): Dropout layer applied to attention scores.
+        attention_scores (torch.Tensor): Stores the attention scores for 
+	        potential analysis.
+    """
+    def __init__(self, d_model: int, h: int, dropout: float):
+        super().__init__()
+        self.d_model = d_model  # Dimensionality of the model
+        self.h = h                # Number of attention heads
+
+        # Ensure that d_model is divisible by the number of heads
+        assert d_model % h == 0, "d_model must be divisible by the number of heads (h)."
+        self.d_k = d_model // h  # Dimensionality of each attention head
+
+        # Linear layers to project inputs to queries, keys, and values
+        self.w_q = nn.Linear(d_model, d_model)  # Query projection
+        self.w_k = nn.Linear(d_model, d_model)  # Key projection
+        self.w_v = nn.Linear(d_model, d_model)  # Value projection
+
+        # Linear layer to project concatenated attention outputs
+        self.w_o = nn.Linear(d_model, d_model)  # Output projection
+
+        # Dropout layer applied to attention scores
+        self.dropout = nn.Dropout(dropout)
+
+        # Placeholder for attention scores (useful for visualization or analysis)
+        self.attention_scores = None
+
+    @staticmethod
+    def attention(query: torch.Tensor, key: torch.Tensor, value: torch.Tensor,
+                 mask: torch.Tensor, dropout: nn.Dropout) -> (torch.Tensor, torch.Tensor):
+        """
+        Compute the scaled dot-product attention.
+
+        Args:
+            query (torch.Tensor): Query tensor of shape 
+	            (batch_size, h, seq_len, d_k).
+            key (torch.Tensor): Key tensor of shape 
+	            (batch_size, h, seq_len, d_k).
+            value (torch.Tensor): Value tensor of shape 
+	            (batch_size, h, seq_len, d_k).
+            mask (torch.Tensor): Mask tensor to prevent attention to 
+	            certain positions. Shape: (batch_size, 1, 1, seq_len) 
+		        or similar, depending on masking strategy.
+            dropout (nn.Dropout): Dropout layer to apply to the 
+	            attention scores.
+
+        Returns:
+            Tuple[torch.Tensor, torch.Tensor]:
+                - Output tensor after applying attention, shape: 
+	                (batch_size, h, seq_len, d_k).
+                - Attention scores tensor, shape: 
+	                (batch_size, h, seq_len, seq_len).
+        """
+        d_k = query.size(-1)  # Dimensionality of the key/query vectors
+
+        # Compute the scaled dot-product attention scores
+        # Shape: (batch_size, h, seq_len, seq_len)
+        attention_scores = torch.matmul(query, key.transpose(-2, -1)) / math.sqrt(d_k)
+
+        if mask is not None:
+            # Apply the mask by setting masked positions to a large 
+            # negative value
+            attention_scores = attention_scores.masked_fill(mask == 0, -1e9)
+
+        # Apply softmax to obtain attention weights
+        attention_weights = torch.softmax(attention_scores, dim=-1)
+
+        if dropout is not None:
+            # Apply dropout to the attention weights
+            attention_weights = dropout(attention_weights)
+
+        # Compute the final attention output
+        # Shape: (batch_size, h, seq_len, d_k)
+        attention_output = torch.matmul(attention_weights, value)
+
+        return attention_output, attention_weights
+
+    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor,
+                mask: torch.Tensor = None) -> torch.Tensor:
+        """
+        Forward pass for the Multi-Head Attention Block.
+
+        Args:
+            q (torch.Tensor): Query tensor of shape 
+	            (batch_size, seq_len, d_model).
+            k (torch.Tensor): Key tensor of shape 
+	            (batch_size, seq_len, d_model).
+            v (torch.Tensor): Value tensor of shape 
+	            (batch_size, seq_len, d_model).
+```
+
+The `MultiHeadAttentionBlock` is a pivotal component of Transformer architectures, enabling the model to focus on different parts of the input sequence simultaneously. Here's a breakdown of its functionality.
+1. **Linear Projections for Queries, Keys, and Values**: Queries ($w_q$), Keys ($w_k$), and Values ($w_v$): The input tensors $q$, $k$, and $v$ are each passed through separate linear layers to generate the corresponding query, key, and value vectors. This transformation allows the model to project the input data into different representation subspaces, facilitating diverse attention mechanisms.
+2. **Spliiting into Multiple Heads**: The projected queries, keys, and values are reshaped and transposed to create multiple attention heads. Each head operates independently, allowing the model to capture various aspects of the input data simultaneously. The dimensionality of each head ($d_k$) is derived by dividing the model's dimensionality ($d_\text{model}$) by the number of heads ()
 ### Residual Connection
 
 ### Encoder Block
