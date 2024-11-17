@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph Neural Networks"
+              "title": "Transformer"
             }
           }
         ],
@@ -193,10 +193,10 @@
   },
   "active": "5cc47962a35d0c6a",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks.md",
     "Topic Notes/Machine Learning/Deep Learning/Transformer.md",
     "Topic Notes/Computer Science/Theory/Dynamic Programming.md",
     "Topic Notes/Machine Learning/Deep Learning/Backpropagation.md",
-    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks.md",
     "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
     "Topic Notes/Machine Learning/Model Evaluation/Mean Squared Error.md",
     "Topic Notes/Machine Learning/Model Evaluation/Root Mean Squared Error.md",
