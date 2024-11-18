@@ -38,23 +38,9 @@
               "icon": "lucide-file",
               "title": "2024-11-18"
             }
-          },
-          {
-            "id": "fbb784a9d59a97fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Bidirectional Encoder Representations from Transformers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bidirectional Encoder Representations from Transformers"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,15 +193,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbb784a9d59a97fb",
+  "active": "c1eaf012f30a087e",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Supervised Learning/Next Sentence Prediction.md",
+    "Topic Notes/Machine Learning/Natural Language Processing/Large Language Models/Bidirectional Encoder Representations from Transformers.md",
+    "Topic Notes/Machine Learning/Natural Language Processing/Large Language Models/Generative Pre-trained Transformer.md",
+    "Topic Notes/Machine Learning/Natural Language Processing/Large Language Models",
     "Daily Notes/2024-11-18.md",
+    "Topic Notes/Machine Learning/Supervised Learning/Masked Language Model.md",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
     "Topic Notes/Books/Meditations for Mortals.md",
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Embedding.md",
     "Topic Notes/Books/Deep Learning on Graphs.md",
     "Topic Notes/Books/Lord of the Rings.md",
-    "Topic Notes/Machine Learning/Deep Learning/Bidirectional Encoder Representations from Transformers.md",
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Untitled.md",
     "Topic Notes/Books/The Art of Computer Programming - Volume 1.md",
     "Topic Notes/Books/Deep Learning.md",
@@ -233,9 +223,6 @@
     "Topic Notes/Computer Science/Programming/Libraries/Darts.md",
     "Topic Notes/Computer Science/Programming/Libraries/NetworkX.md",
     "Topic Notes/Computer Science/Programming/Libraries/Deep Graph Library.md",
-    "Topic Notes/Computer Science/Programming/Libraries/PyTorch Geometric.md",
-    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Gated Graph Sequence Neural Networks.md",
-    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Temporal Graph Networks.md",
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks",
     "Topic Notes/Interview Questions/Behavioral",
     "Topic Notes/Interview Questions/Technical",
@@ -244,7 +231,6 @@
     "Topic Notes/LeetCode/Hard",
     "Topic Notes/LeetCode/Medium",
     "Topic Notes/LeetCode/Easy",
-    "Topic Notes/Computer Science/Theory",
     "Files/Pasted image 20241028110635.png",
     "Untitled.canvas",
     "Files/Pasted image 20231017183517.png"
