@@ -8,24 +8,9 @@
         "type": "tabs",
         "children": [
           {
-            "id": "db46f34fcb0297b6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Transformer.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Transformer"
-            }
-          },
-          {
             "id": "1fbfa860418b3921",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -33,12 +18,43 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Applied Scientist, PXT Finance"
             }
+          },
+          {
+            "id": "c1eaf012f30a087e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2024-11-18.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2024-11-18"
+            }
+          },
+          {
+            "id": "fbb784a9d59a97fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic Notes/Machine Learning/Deep Learning/Bidirectional Encoder Representations from Transformers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bidirectional Encoder Representations from Transformers"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Dynamic Programm",
+                "query": "BERT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,44 +207,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1fbfa860418b3921",
+  "active": "fbb784a9d59a97fb",
   "lastOpenFiles": [
-    "Topic Notes/Interview Questions/Technical/What is the difference between bagging and boosting?.md",
-    "Notes/Applied Scientist, PXT Finance.md",
-    "Topic Notes/Interview Questions/Behavioral",
-    "Topic Notes/Interview Questions/Technical/How would you compare two different search algorithms?.md",
-    "Topic Notes/Interview Questions/Technical",
-    "Topic Notes/Interview Questions/Technical/What are the assumptions of linear and logistic regression?.md",
-    "Topic Notes/Machine Learning/Deep Learning/Transformer.md",
-    "Topic Notes/LeetCode/Medium/Longest Substring Without Repeating Characters.md",
-    "Topic Notes/LeetCode/Medium/Add Two Numbers.md",
-    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks.md",
-    "Topic Notes/Computer Science/Theory/Dynamic Programming.md",
-    "Topic Notes/Machine Learning/Deep Learning/Backpropagation.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Mean Squared Error.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Root Mean Squared Error.md",
-    "Notes/Identity.md",
-    "Notes/Identity - Guitarist.md",
-    "Notes/Identity - Dog Walker.md",
-    "Notes/Tips for Madrid.md",
-    "Notes/ChatGPT MLE project Ideas.md",
-    "Notes/Cool Spanish Phrases.md",
-    "Notes/Project Failure in ML.md",
-    "Notes/Overwatch Data Analysis.md",
-    "Notes/Company Ideas.md",
+    "Daily Notes/2024-11-18.md",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
-    "Topic Notes/Machine Learning/Optimization Algorithms/Gradient Descent.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimizers.md",
-    "Notes/ADAM.md",
+    "Topic Notes/Books/Meditations for Mortals.md",
+    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Embedding.md",
+    "Topic Notes/Books/Deep Learning on Graphs.md",
+    "Topic Notes/Books/Lord of the Rings.md",
+    "Topic Notes/Machine Learning/Deep Learning/Bidirectional Encoder Representations from Transformers.md",
+    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Untitled.md",
+    "Topic Notes/Books/The Art of Computer Programming - Volume 1.md",
+    "Topic Notes/Books/Deep Learning.md",
+    "Topic Notes/Books/Machine Learning Engineering in Action.md",
+    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Diffusion Convolutional Recurrent Neural Network.md",
+    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Spatio-Temporal Graph Convolutional Networks.md",
+    "Notes/Applied Scientist, PXT Finance.md",
+    "Topic Notes/Statistics/Survival Analysis/Survivor Curves.md",
+    "Topic Notes/Statistics/Survival Analysis/Kaplan-Meier Estimators.md",
+    "Topic Notes/Statistics/Survival Analysis/Cox Proportional Hazards Model.md",
+    "Topic Notes/Computer Science/Programming/Libraries/StatsForecast.md",
+    "Topic Notes/Statistics/Survival Analysis",
+    "Topic Notes/Statistics/Untitled.md",
+    "Topic Notes/Statistics/Survival Analysis.md",
+    "Topic Notes/Computer Science/Programming/Libraries/Darts.md",
+    "Topic Notes/Computer Science/Programming/Libraries/NetworkX.md",
+    "Topic Notes/Computer Science/Programming/Libraries/Deep Graph Library.md",
+    "Topic Notes/Computer Science/Programming/Libraries/PyTorch Geometric.md",
+    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Gated Graph Sequence Neural Networks.md",
+    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Temporal Graph Networks.md",
+    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks",
+    "Topic Notes/Interview Questions/Behavioral",
+    "Topic Notes/Interview Questions/Technical",
     "Topic Notes/Graph Theory",
     "Topic Notes/Computer Science/Data Structures",
     "Topic Notes/LeetCode/Hard",
     "Topic Notes/LeetCode/Medium",
     "Topic Notes/LeetCode/Easy",
     "Topic Notes/Computer Science/Theory",
-    "Topic Notes/Computer Science/Quantum Computing",
-    "Topic Notes/Computer Science/Operating Systems",
     "Files/Pasted image 20241028110635.png",
     "Untitled.canvas",
     "Files/Pasted image 20231017183517.png"

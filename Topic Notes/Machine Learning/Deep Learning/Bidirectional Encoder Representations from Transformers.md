@@ -1,0 +1,4 @@
+Bidirectional Encoder Representations from Transformers (BERT) is a transformer-based machine learning model designed for natural language understanding (NLU) tasks. It was introduced by Google in 2018 in the paper "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" by #JacobDevlin.
+## Key Features
+1. **Bidirectional Contextual Understanding**: Unlike traditional language models that read text in one direction, BERT reads text in both directions simultaneously. This bidirectional approach helps BERT capture the context of words based on both preceding and following words in a sentence.
+2. 
