@@ -1,5 +1,3 @@
-# What are the assumptions of linear and logistic regression models?
-
 ### Linear Regression:
 
 Linear Regression models have several assumptions:

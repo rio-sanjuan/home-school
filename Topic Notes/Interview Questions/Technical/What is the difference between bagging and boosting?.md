@@ -1,5 +1,3 @@
-# What is the difference between bagging and boosting?
-
 Both Bagging and Boosting and ensemble learning methods, which combine the decisions from multiple models to improve the model's performance, with each working in different ways.
 
 ## Bagging

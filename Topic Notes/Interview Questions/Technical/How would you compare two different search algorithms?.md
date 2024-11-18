@@ -1,5 +1,3 @@
-# How would you compare the results of two different search algorithms?
-
 Comparing two different search algorithms typically involves evaluating them based on several criteria, such as relevance, efficiency, and accuracy. When incorporating rankings of the results, you may consider additional metrics like Normalized Discounted Cumulative Gain (NDCG) and Precision@K. Below is a general approach to compare two search algorithms:
 
 ### 1. **Define Evaluation Metrics:**
