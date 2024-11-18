@@ -25,8 +25,15 @@ In answering the second question, many methods have been proposed, but they all 
 Here are some graph embedding algorithms for *simple* graphs (static, undirected, unsigned, and homogeneous). Algorithms are organized according to the information they attempt to preserve, including node co-occurence, structural role, node status, and community structure.
 ### Preserving Node Co-occurrence
 
+One of the most popular ways to extract node co-occurrence in a graph is via performing random walks. Nodes are considered similar to each other if they tend to co-occur in these random walks. The [[Embedding#Mapping Function]] is optimized so that the learned node representations can reconstruct the "similarity" extracted from random walks.
+
+### Mapping Function
+
+A Direct way to define the mapping function $f(v_i)$ is using a lookup table. This means that we retrieve node $v_i$'s embedding $\textbf{u}_i$ given its index $i$. Specifically, the mapping function is implemented as $$ f(v_i) = \textbf{u}_i
+
 ## DeepWalk
 
+DeepWalk is a graph representation learning algorithm that generates embeddings for nodes in a graph. It was introduced in the paper "DeepWalk: Online Learning of Social Representations" by Perozzi et al. in 2014. The algorithm is inspired by techniques from Natural Language Processing (NLP) and applies them to graphs, leveraging random walks and the [[Skip-Gram Model]] (popularized by [[Word2Vec]]).
 ## Node2Vec
 
 ## Graph2Vec
