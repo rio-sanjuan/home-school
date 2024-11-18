@@ -1,2 +1,0 @@
-
-I want to practice Spanish as if you were a parent teaching their child. Please speak to me mostly in Spanish, correcting my vocabulary and grammar gently. Ask me leading questions about my daily life, experiences, or things I might be seeing or doing, and encourage me to respond in Spanish.
