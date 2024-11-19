@@ -1,0 +1,11 @@
+Negative Sampling is a technique using in training neural networks, particularly in language models like [[Word2Vec]], to efficiently compute the loss and gradients for large output spaces. It was introduced by #Mikolov et al. as part of the Word2Vec framework to address the computational inefficiencies of calculating a full softmax probability over a large vocabulary. The traditional [[Skip-Gram Model]] involves computing a [[Activation Functions#Softmax]] over the entire vocabulary to predict context words, which becomes computationally expensive as the vocabulary size grows. Negative sampling simplifies this by reformulating the task as a binary classification problem: distinguishing true context words (positive samples) from randomly sampled incorrect words (negative samples).
+
+Instead of maximizing the likelihood of all context words, the model focuses on a subset of words. For a target word $w$ and a true context word $c$, the objective is to maximize the probability of $(w, c)$ being a true pair and minimize the probability for $(w, c_\text{neg})$, where $c_\text{neg}$ is a negative sample. The loss function is defined as: $$ L = -\log \sigma(\textbf{v}_w\cdot\textbf{v}_c) - \sum_{j=1}^k \log \sigma(-\textbf{v}_w\cdot\textbf{v}_{c_\text{neg},j})$$ where
+1. $v_w$ is the embedding vector of the target word $w$
+2. $v_c$ is the embedding vector of the positive context word $c$
+3. $v_{c_\text{neg},j}$ are the embedding vectors of the $k$ negative samples
+4. $\sigma(x) = \frac{1}{1+e^{-x}}$ is the [[Activation Functions#Sigmoid]] function
+
+The first term increases the similarity between $w$ and $c$, while the second term decreases the similarity between $w$ and the negative samples.
+
+Negative sampling drastically reduces computation by requiring updates only for the embeddings of the target word, positive context word, and a few negative samples, instead of all words in the vocabulary. This efficiency makes it a popular choice not just for word embeddings but also in applications like graph embeddings (e.g., [[Embedding#DeepWalk]]) and recommendation systems.
