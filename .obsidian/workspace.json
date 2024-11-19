@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Survival Analysis/Overview.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Activation Functions"
             }
           }
         ],
@@ -126,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 402.5
   },
   "right": {
     "id": "415736eaa91d276b",
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Survival Analysis/Overview.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Overview"
+              "title": "Backlinks for Activation Functions"
             }
           },
           {
@@ -224,8 +224,9 @@
   },
   "active": "816ef09095198e07",
   "lastOpenFiles": [
-    "Topic Notes/Machine Learning/Deep Learning/Universal Approximation Theorem.md",
+    "Topic Notes/Machine Learning/Deep Learning/Recurrent Neural Network.md",
     "Topic Notes/Machine Learning/Survival Analysis/Overview.md",
+    "Topic Notes/Machine Learning/Deep Learning/Universal Approximation Theorem.md",
     "Topic Notes/Probability/Distributions/Weibull.md",
     "Topic Notes/Probability/Distributions/Poisson.md",
     "Topic Notes/Probability/Distributions/Normal.md",
@@ -252,7 +253,6 @@
     "Topic Notes/Machine Learning/Natural Language Processing/Large Language Models/Generative Pre-trained Transformer.md",
     "Topic Notes/Machine Learning/Natural Language Processing/Large Language Models",
     "Topic Notes/Machine Learning/Supervised Learning/Masked Language Model.md",
-    "Topic Notes/Books/Meditations for Mortals.md",
     "Topic Notes/Machine Learning/Survival Analysis",
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks",
     "Topic Notes/Interview Questions/Behavioral",
