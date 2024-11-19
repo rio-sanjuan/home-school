@@ -72,8 +72,8 @@ print(embedded.shape) # Output: torch.Size([2, 5, 512])
 
 $$ 
 \begin{eqnarray}
-PE_{(pos,2i)} &=& \sin(\frac{pos}{10000^{\frac{2i}{d_\text{model}}}}) \\
-PE_{(pos,2i + 1)} &=& \cos(\frac{pos}{10000^{\frac{2i}{d_\text{model}}}})
+PE_{(pos,2i)} &=& \sin\left(\frac{pos}{10000^{\frac{2i}{d_\text{model}}}}\right) \\
+PE_{(pos,2i + 1)} &=& \cos\left(\frac{pos}{10000^{\frac{2i}{d_\text{model}}}}\right)
 \end{eqnarray}
 $$
 where:

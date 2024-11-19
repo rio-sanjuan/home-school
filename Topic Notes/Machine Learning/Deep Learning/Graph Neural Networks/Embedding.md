@@ -29,7 +29,20 @@ One of the most popular ways to extract node co-occurrence in a graph is via per
 
 ### Mapping Function
 
-A Direct way to define the mapping function $f(v_i)$ is using a lookup table. This means that we retrieve node $v_i$'s embedding $\textbf{u}_i$ given its index $i$. Specifically, the mapping function is implemented as $$ f(v_i) = \textbf{u}_i
+A Direct way to define the mapping function $f(v_i)$ is using a lookup table. This means that we retrieve node $v_i$'s embedding $\textbf{u}_i$ given its index $i$. Specifically, the mapping function is implemented as $$ f(v_i) = \textbf{u}_i = \textbf{e}_i^\text{T}\textbf{W}, $$ where $\textbf{e}_i ∈ \{0,1\}^N$  with $N = |\mathcal{V}|$ is the one-hot encoding of the node $v_i$. $\textbf{W}^{N\times d}$ are the embedding parameters to be learned, where $d$ is the dimension of the embedding. The $i^{th}$ row of the matrix $\textbf{W}$ denotes the representations (or the embedding) of node $v_i$. Hence, the number of parameters in the mapping function is $N\times d$.
+
+### Random Walk-Based Co-occurrence Extractor
+
+Given a starting node $v^{(0)}$ in a graph $\mathcal{G}$, we randomly walk to one of its neighbors. We repeat this process from the node until $T$ nodes are visited. This random sequence of visited nodes is a random walk of length $T$ on the graph. We formally define a random walk as follows:
+
+Let $\mathcal{G} = \{\mathcal{V}, \mathcal{E}\}$ denote a connected graph. The probability of moving from node $v^{(t)}$ on the $t^{th}$ step of the random walk is defined by: $$ p(v^{t+1} \lvert v^{(t)}) = \begin{cases}
+\frac{1}{d(v^{(t)})} & v^{(t+1)} ∈ \mathcal{N}(v^{(t)} \\
+0 & \text{else}
+\end{cases}$$where $d(v^{(t)})$ denotes the degree of node $v^{(t)}$ and $\mathcal{N}(v^{(t)})$ is the set of neighbors of $v^{(t)}$. In other words, the next node is randomly selected from the neighbors of the current node following a uniform distribution. We use a random walk generator to summarize the above process as follows: $$ \mathcal{W} = \text{RW}(\mathcal{G}, v^{(0)}, T),$$where $\mathcal{W} = (v^{(0)}, \ldots, v^{(T-1)})$ denotes the generated random walk where $T$ is the length of the random walk.
+
+Random walks have been employed as a similarity measure in various tasks such as content recommendation and community detection. In [[Embedding#DeepWalk]], a set of short random walks is generated from a given graph, and node co-occurrence is extracted from these random walks. Next, we detail the process of generating the set of random walks and extracting co-occurrence from them.
+
+To generate random walks that can capture the information of the entire graph, each node is considered as a starting node to generate $\gamma$ random walks. Therefore, there are $N\cdot\gamma$ random walks in total. These random walks can be treated as sentences in an "artificial language" where the set of nodes $\mathcal{V}$ is its vocabulary. The [[Skip-Gram Model]] in language modeling
 
 ## DeepWalk
 
