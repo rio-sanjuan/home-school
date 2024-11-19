@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Survival Analysis/Random Survival Forest.md",
+                "file": "Topic Notes/Machine Learning/Survival Analysis/Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Random Survival Forest"
+              "title": "Overview"
             }
           }
         ],
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Survival Analysis/Random Survival Forest.md",
+                "file": "Topic Notes/Machine Learning/Survival Analysis/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Random Survival Forest"
+              "title": "Backlinks for Overview"
             }
           },
           {
@@ -222,11 +222,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a972992ff9d6f4cb",
+  "active": "816ef09095198e07",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Deep Learning/Universal Approximation Theorem.md",
+    "Topic Notes/Machine Learning/Survival Analysis/Overview.md",
+    "Topic Notes/Probability/Distributions/Weibull.md",
+    "Topic Notes/Probability/Distributions/Poisson.md",
+    "Topic Notes/Probability/Distributions/Normal.md",
+    "Topic Notes/Probability/Distributions/Exponential.md",
+    "Topic Notes/Probability/Distributions/Binomial.md",
+    "Topic Notes/Machine Learning/Survival Analysis/Accelerated Failure Time.md",
+    "Topic Notes/Machine Learning/Survival Analysis/Random Survival Forest.md",
     "Files/Deep learning for survival analysis - a review.pdf",
     "Topic Notes/Machine Learning/Survival Analysis/Cox Proportional Hazards Regression Model.md",
-    "Topic Notes/Machine Learning/Survival Analysis/Random Survival Forest.md",
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Embedding.md",
     "Topic Notes/Machine Learning/Survival Analysis/Kaplan-Meier Estimator.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Negative Sampling.md",
@@ -245,13 +253,6 @@
     "Topic Notes/Machine Learning/Natural Language Processing/Large Language Models",
     "Topic Notes/Machine Learning/Supervised Learning/Masked Language Model.md",
     "Topic Notes/Books/Meditations for Mortals.md",
-    "Topic Notes/Books/Deep Learning on Graphs.md",
-    "Topic Notes/Books/Lord of the Rings.md",
-    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Untitled.md",
-    "Topic Notes/Books/The Art of Computer Programming - Volume 1.md",
-    "Topic Notes/Books/Deep Learning.md",
-    "Topic Notes/Books/Machine Learning Engineering in Action.md",
-    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Diffusion Convolutional Recurrent Neural Network.md",
     "Topic Notes/Machine Learning/Survival Analysis",
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks",
     "Topic Notes/Interview Questions/Behavioral",
@@ -259,7 +260,6 @@
     "Topic Notes/Graph Theory",
     "Topic Notes/Computer Science/Data Structures",
     "Topic Notes/LeetCode/Hard",
-    "Topic Notes/LeetCode/Medium",
     "Files/Pasted image 20241028110635.png",
     "Untitled.canvas",
     "Files/Pasted image 20231017183517.png"
