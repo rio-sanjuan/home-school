@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Optimizers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Activation Functions"
+              "title": "Optimizers"
             }
           }
         ],
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Optimizers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Activation Functions"
+              "title": "Backlinks for Optimizers"
             }
           },
           {
@@ -224,6 +224,7 @@
   },
   "active": "816ef09095198e07",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
     "Topic Notes/Machine Learning/Deep Learning/Recurrent Neural Network.md",
     "Topic Notes/Machine Learning/Survival Analysis/Overview.md",
     "Topic Notes/Machine Learning/Deep Learning/Universal Approximation Theorem.md",
@@ -243,7 +244,6 @@
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Hierarchical Softmax.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization",
     "Daily Notes/2024-11-18.md",
-    "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
     "Topic Notes/Machine Learning/Deep Learning/Backpropagation.md",
     "Topic Notes/Machine Learning/Deep Learning/Transformer.md",
     "Topic Notes/Machine Learning/Natural Language Processing/Word Embeddings/GloVe.md",
