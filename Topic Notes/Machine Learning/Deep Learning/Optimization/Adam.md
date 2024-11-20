@@ -1,7 +1,7 @@
 ADAptive Moment Estimation (Adam) combines the benefits of [[RMSprop]] and [[Momentum Gradient Descent]], maintaining per-parameter adaptive learning rates.
 
 ```python
-optimizer = torch.optim.Ada
+optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 ```
 ## Parameters
 
