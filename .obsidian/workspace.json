@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
+                "file": "Topic Notes/Computer Science/Libraries/PyTorch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Activation Functions"
+              "title": "PyTorch"
             }
           }
         ],
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
+                "file": "Topic Notes/Computer Science/Libraries/PyTorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Activation Functions"
+              "title": "Backlinks for PyTorch"
             }
           },
           {
@@ -224,6 +224,12 @@
   },
   "active": "fcf167b6510fb658",
   "lastOpenFiles": [
+    "Topic Notes/Computer Science/Libraries/NumPy.md",
+    "Topic Notes/Computer Science/Libraries/PyTorch.md",
+    "Topic Notes/Computer Science/Libraries/PyTorch/Introduction.md",
+    "Topic Notes/Computer Science/Libraries/PyTorch Geometric.md",
+    "Topic Notes/Computer Science/Libraries/PyTorch",
+    "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
     "Topic Notes/Mathematics/Graph Theory/Theorems/Kuratowski's Theorem.md",
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Embedding.md",
     "Topic Notes/Mathematics/Graph Theory/Theorems/Euler's Formula.md",
@@ -244,22 +250,16 @@
     "Topic Notes/Computer Science/Algorithms/8 Out of 10 Cats Does Countdown.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimizers.md",
     "Topic Notes/Mathematics",
-    "Topic Notes/Machine Learning/Deep Learning/Activation Functions.md",
     "Topic Notes/Machine Learning/Deep Learning/Recurrent Neural Network.md",
     "Topic Notes/Machine Learning/Survival Analysis/Overview.md",
     "Topic Notes/Machine Learning/Deep Learning/Universal Approximation Theorem.md",
     "Topic Notes/Probability/Distributions/Weibull.md",
-    "Topic Notes/Probability/Distributions/Poisson.md",
-    "Topic Notes/Probability/Distributions/Normal.md",
-    "Topic Notes/Probability/Distributions/Exponential.md",
-    "Topic Notes/Probability/Distributions/Binomial.md",
     "Files/Deep learning for survival analysis - a review.pdf",
     "Topic Notes/Machine Learning/Deep Learning/Optimization",
     "Topic Notes/Machine Learning/Natural Language Processing/Large Language Models",
     "Topic Notes/Machine Learning/Survival Analysis",
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks",
     "Topic Notes/Interview Questions/Behavioral",
-    "Topic Notes/Interview Questions/Technical",
     "Files/Pasted image 20241028110635.png",
     "Untitled.canvas",
     "Files/Pasted image 20231017183517.png"
