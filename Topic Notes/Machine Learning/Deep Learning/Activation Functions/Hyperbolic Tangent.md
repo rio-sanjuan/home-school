@@ -1,0 +1,4 @@
+Formula: $$
+\text{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} = 2\sigma(2x) - 1
+$$
+The **tanh** function $\text{tanh} : \mathbb{R} \to [-1,1]$ is similar to the sigmoid function, but it maps the input to a range between -1 and 1. It has the advantage of being zero-centered, meaning the output can be both positive and negative, which helps with the learning process (especially when dealing with weight updates). Like sigmoid, it suffers from the vanishing gradients problem, especially with very large input values. The **tanh** function is commonly used in the hidden layers of neural networks, especially in [[Recurrent Neural Network]] (RNNs).
