@@ -56,17 +56,17 @@
             }
           },
           {
-            "id": "a3fc4d1d858493d1",
+            "id": "fcf167b6510fb658",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Computer Science/Algorithms/Fast Inverse Square Root.md",
+                "file": "Topic Notes/Mathematics/Graph Theory/Theorems/Kuratowski's Theorem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fast Inverse Square Root"
+              "title": "Kuratowski's Theorem"
             }
           }
         ],
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Computer Science/Algorithms/Fast Inverse Square Root.md",
+                "file": "Topic Notes/Mathematics/Graph Theory/Theorems/Kuratowski's Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Fast Inverse Square Root"
+              "title": "Backlinks for Kuratowski's Theorem"
             }
           },
           {
@@ -222,9 +222,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3fc4d1d858493d1",
+  "active": "fcf167b6510fb658",
   "lastOpenFiles": [
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Embedding.md",
+    "Topic Notes/Mathematics/Graph Theory/Theorems/Kuratowski's Theorem.md",
+    "Topic Notes/Mathematics/Graph Theory/Theorems/Euler's Formula.md",
+    "Topic Notes/Mathematics/Graph Theory/Applications.md",
+    "Topic Notes/Mathematics/Graph Theory/Algorithms.md",
+    "Topic Notes/Mathematics/Graph Theory/Algorithms",
+    "Topic Notes/Mathematics/Graph Theory/Planar Graphs.md",
+    "Topic Notes/Mathematics/Graph Theory/Theorems",
+    "Topic Notes/Mathematics/Graph Theory/Untitled.md",
+    "Topic Notes/Mathematics/Graph Theory/Dynamic Graphs.md",
+    "Topic Notes/Mathematics/Graph Theory/Spectral Graph Theory.md",
+    "Topic Notes/Mathematics/Graph Theory/Metrics.md",
+    "Topic Notes/Mathematics/Graph Theory/Hypergraphs.md",
+    "Topic Notes/Mathematics/Graph Theory/Directed Graphs.md",
+    "Topic Notes/Mathematics/Graph Theory/Trees.md",
+    "Topic Notes/Mathematics/Graph Theory/Introduction.md",
     "Topic Notes/Computer Science/Algorithms/Fast Inverse Square Root.md",
     "Topic Notes/Computer Science/Algorithms/8 Out of 10 Cats Does Countdown.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimizers.md",
@@ -238,28 +253,13 @@
     "Topic Notes/Probability/Distributions/Normal.md",
     "Topic Notes/Probability/Distributions/Exponential.md",
     "Topic Notes/Probability/Distributions/Binomial.md",
-    "Topic Notes/Machine Learning/Survival Analysis/Accelerated Failure Time.md",
-    "Topic Notes/Machine Learning/Survival Analysis/Random Survival Forest.md",
     "Files/Deep learning for survival analysis - a review.pdf",
-    "Topic Notes/Machine Learning/Survival Analysis/Cox Proportional Hazards Regression Model.md",
-    "Topic Notes/Machine Learning/Survival Analysis/Kaplan-Meier Estimator.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Negative Sampling.md",
-    "Topic Notes/Machine Learning/Natural Language Processing/Word Embeddings/Skip-Gram Model.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Hierarchical Softmax.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization",
-    "Daily Notes/2024-11-18.md",
-    "Topic Notes/Machine Learning/Deep Learning/Backpropagation.md",
-    "Topic Notes/Machine Learning/Deep Learning/Transformer.md",
-    "Topic Notes/Machine Learning/Natural Language Processing/Word Embeddings/GloVe.md",
-    "Topic Notes/Machine Learning/Natural Language Processing/Word Embeddings/Word2Vec.md",
-    "Topic Notes/Machine Learning/Supervised Learning/Next Sentence Prediction.md",
     "Topic Notes/Machine Learning/Natural Language Processing/Large Language Models",
     "Topic Notes/Machine Learning/Survival Analysis",
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks",
     "Topic Notes/Interview Questions/Behavioral",
     "Topic Notes/Interview Questions/Technical",
-    "Topic Notes/Mathematics/Graph Theory",
-    "Topic Notes/Computer Science/Data Structures",
     "Files/Pasted image 20241028110635.png",
     "Untitled.canvas",
     "Files/Pasted image 20231017183517.png"
