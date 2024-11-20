@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Mathematics/Graph Theory/Centrality.md",
+                "file": "Topic Notes/Mathematics/Graph Theory/Bipartite Graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Centrality"
+              "title": "Bipartite Graphs"
             }
           },
           {
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Laplacia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Mathematics/Graph Theory/Centrality.md",
+                "file": "Topic Notes/Mathematics/Graph Theory/Bipartite Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Centrality"
+              "title": "Backlinks for Bipartite Graphs"
             }
           },
           {
@@ -206,9 +206,14 @@
   },
   "active": "6b2f9315726b63ba",
   "lastOpenFiles": [
+    "Topic Notes/Mathematics/Graph Theory/Heterogeneous Graphs.md",
+    "Topic Notes/Mathematics/Graph Theory/Bipartite Graphs.md",
+    "Topic Notes/Mathematics/Graph Theory/Signal Processing.md",
+    "Topic Notes/Mathematics/Graph Theory/Spectral Graph Theory.md",
+    "Topic Notes/Mathematics/Linear Algebra/Matrices/Laplacian.md",
+    "Topic Notes/Mathematics/Graph Theory/Centrality.md",
     "Topic Notes/Mathematics/Graph Theory/Definitions.md",
     "Topic Notes/Mathematics/Linear Algebra/Eigenvalues and Eigenvectors/Perron-Frobenius Theorem.md",
-    "Topic Notes/Mathematics/Graph Theory/Centrality.md",
     "Notes/Applied Scientist, PXT Finance.md",
     "Topic Notes/Mathematics/Calculus/Jacobian.md",
     "Topic Notes/Computer Science/Libraries/PyTorch.md",
@@ -228,11 +233,6 @@
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Hyperbolic Tangent.md",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Swish.md",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Softmax.md",
-    "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Sigmoid.md",
-    "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Rectified Linear Unit.md",
-    "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Leaky ReLU.md",
-    "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Exponential Linear Unit.md",
-    "Topic Notes/Machine Learning/Deep Learning/Autoencoders.md",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions",
     "Topic Notes/Computer Science/Libraries/PyTorch",
     "Topic Notes/Mathematics/Graph Theory/Algorithms",

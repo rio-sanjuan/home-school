@@ -1,0 +1,1 @@
+Spectral Graph Theory studies the properties of a graph through analyzing the eigenvalues and eigenvectors of its [[Laplacian]] matrix.
