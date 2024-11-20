@@ -33,7 +33,7 @@ Deployment >> Serving >> Monitoring >> Logging
 
 ### [[TensorFlow Extended (TFX)]]
 
-### [[Topic Notes/MLOps/Data Flows/Human-in-the-loop Workflows|Human-in-the-loop Workflows]]
+### [[Topic Notes/Machine Learning/MLOps/Data Flows/Human-in-the-loop Workflows|Human-in-the-loop Workflows]]
 
 ## MLOps Best Practices
 

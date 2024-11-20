@@ -1,3 +1,4 @@
+```python
 # Number Game from 8 out of 10 Cats Does Countdown!
 # https://www.youtube.com/watch?v=bWNyBEicRjI
 
@@ -39,3 +40,4 @@ if __name__ == "__main__":
         print(f"Solution: {solution}")
     else:
         print("No solution found!")
+```

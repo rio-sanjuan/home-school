@@ -1,3 +1,4 @@
+```python
 # Check out the wikipedia page for an interesting read!
 # https://en.wikipedia.org/wiki/Fast_inverse_square_root
 # https://www.youtube.com/watch?v=p8u_k2LIZyo&t=11s
@@ -47,3 +48,4 @@ def compare(number):
 if __name__ == "__main__":
     print(f"Input: {500}, abs err: {compare(500.0)}")
     print(f"Input: {0.001}, abs err: {compare(0.001)}")
+```
