@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adagrad.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adagrad"
+              "title": "Adam"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adagrad.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Adagrad"
+              "title": "Backlinks for Adam"
             }
           },
           {
@@ -192,6 +192,15 @@
   },
   "active": "f9ddc465791e3091",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Deep Learning/Regularization/Batchnorm.md",
+    "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Linear Activation Function.md",
+    "Topic Notes/Machine Learning/Deep Learning/Regularization/Dropout.md",
+    "Topic Notes/Machine Learning/Model Training/Regularization.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
+    "Topic Notes/Machine Learning/Deep Learning/Regularization",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/RMSprop.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adagrad.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Nesterov Momentum Gradient Descent.md",
     "Notes/Applied Scientist, PXT Finance.md",
     "Topic Notes/Mathematics/Convolution Operation.md",
@@ -210,15 +219,7 @@
     "Topic Notes/Mathematics/Graph Theory/Definitions.md",
     "Topic Notes/Mathematics/Linear Algebra/Eigenvalues and Eigenvectors/Perron-Frobenius Theorem.md",
     "Topic Notes/Mathematics/Calculus/Jacobian.md",
-    "Topic Notes/Computer Science/Libraries/PyTorch.md",
     "Topic Notes/Mathematics/Calculus",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Rprop.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/NAdam.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/RAdam.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/RMSprop.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/AdamW.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Average Stochastic Gradient Descent.md",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions",
     "Topic Notes/Computer Science/Libraries/PyTorch",
     "Topic Notes/Mathematics/Graph Theory/Algorithms",
@@ -227,7 +228,6 @@
     "Files/Deep learning for survival analysis - a review.pdf",
     "Topic Notes/Machine Learning/Deep Learning/Optimization",
     "Topic Notes/Machine Learning/Natural Language Processing/Large Language Models",
-    "Topic Notes/Machine Learning/Survival Analysis",
     "Files/Pasted image 20241028110635.png",
     "Untitled.canvas",
     "Files/Pasted image 20231017183517.png"
