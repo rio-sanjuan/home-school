@@ -1,0 +1,1 @@
+In general, the convolution operation is a mathematical operation on two real functions to produce a third function. The convolution operation between two functions $f(\cdot)$ and $g(\cdot)$ can be defined as: $$(f*g)(t) = \int_{-\infty}^\infty f(\tau)g(t-\tau)\;d\tau.$$ A

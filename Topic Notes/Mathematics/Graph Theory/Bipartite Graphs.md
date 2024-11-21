@@ -1,1 +1,3 @@
-In a bipartite graph
+In a bipartite graph $\mathcal{G} = \{\mathcal{V,E}\}$, its node set $\mathcal{V}$ can be divided into two disjoint subsets $\mathcal{V}_1$ and $\mathcal{V}_2$ where every edge in $\mathcal{E}$ connects a node in $\mathcal{V}_1$ to a node in $\mathcal{V}_2$. Bipartite graphs are widely used to capture interactions between different objects. For example, in many e-commerce platforms, the click history of users can be modeled as a bipartite graph where the users and items are the two disjoint sets and users' click behavior form the edges between them.
+
+Given a graph $\mathcal{G} = \{\mathcal{V,E}\}$, it is bipartite if and only if $\mathcal{V} = \mathcal{V}_1\cup\mathcal{V}_2,\mathcal{V}_1\cap\mathcal{V}_2=\emptyset$ and $v_e^1\in\mathcal{V}_1$ and $v_e^2\in\mathcal{V}_2$ for all $e=(v_e^1,v_e^2)\in\mathcal{E}$.

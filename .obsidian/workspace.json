@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Mathematics/Graph Theory/Bipartite Graphs.md",
+                "file": "Topic Notes/Mathematics/Convolution Operation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bipartite Graphs"
+              "title": "Convolution Operation"
             }
           },
           {
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Laplacia",
+                "query": "Convolution",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Mathematics/Graph Theory/Bipartite Graphs.md",
+                "file": "Topic Notes/Mathematics/Convolution Operation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Bipartite Graphs"
+              "title": "Backlinks for Convolution Operation"
             }
           },
           {
@@ -206,8 +206,14 @@
   },
   "active": "6b2f9315726b63ba",
   "lastOpenFiles": [
-    "Topic Notes/Mathematics/Graph Theory/Heterogeneous Graphs.md",
+    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Graph Convolution.md",
+    "Topic Notes/Mathematics/Convolution Operation.md",
+    "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Embedding.md",
+    "Daily Notes/2024-11-18.md",
+    "Topic Notes/Mathematics/Graph Theory/Hypergraphs.md",
+    "Topic Notes/Mathematics/Graph Theory/Multidimensional Graph.md",
     "Topic Notes/Mathematics/Graph Theory/Bipartite Graphs.md",
+    "Topic Notes/Mathematics/Graph Theory/Heterogeneous Graphs.md",
     "Topic Notes/Mathematics/Graph Theory/Signal Processing.md",
     "Topic Notes/Mathematics/Graph Theory/Spectral Graph Theory.md",
     "Topic Notes/Mathematics/Linear Algebra/Matrices/Laplacian.md",
@@ -227,12 +233,6 @@
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Average Stochastic Gradient Descent.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/SparseAdam.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Adamax.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adagrad.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/ADADelta.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Stochastic Gradient Descent.md",
-    "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Hyperbolic Tangent.md",
-    "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Swish.md",
-    "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Softmax.md",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions",
     "Topic Notes/Computer Science/Libraries/PyTorch",
     "Topic Notes/Mathematics/Graph Theory/Algorithms",
