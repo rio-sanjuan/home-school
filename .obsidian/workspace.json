@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
+                "file": "Topic Notes/Machine Learning/Model Training/Overfitting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adam"
+              "title": "Overfitting"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
+                "file": "Topic Notes/Machine Learning/Model Training/Overfitting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Adam"
+              "title": "Backlinks for Overfitting"
             }
           },
           {
@@ -192,11 +192,14 @@
   },
   "active": "f9ddc465791e3091",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Model Training/Bias-Variance Tradeoff.md",
+    "Topic Notes/Machine Learning/Model Training/Overfitting.md",
+    "Topic Notes/Machine Learning/Feature Engineering/Box-Cox Transformation.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
     "Topic Notes/Machine Learning/Deep Learning/Regularization/Batchnorm.md",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Linear Activation Function.md",
     "Topic Notes/Machine Learning/Deep Learning/Regularization/Dropout.md",
     "Topic Notes/Machine Learning/Model Training/Regularization.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
     "Topic Notes/Machine Learning/Deep Learning/Regularization",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/RMSprop.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
@@ -216,9 +219,6 @@
     "Topic Notes/Mathematics/Graph Theory/Spectral Graph Theory.md",
     "Topic Notes/Mathematics/Linear Algebra/Matrices/Laplacian.md",
     "Topic Notes/Mathematics/Graph Theory/Centrality.md",
-    "Topic Notes/Mathematics/Graph Theory/Definitions.md",
-    "Topic Notes/Mathematics/Linear Algebra/Eigenvalues and Eigenvectors/Perron-Frobenius Theorem.md",
-    "Topic Notes/Mathematics/Calculus/Jacobian.md",
     "Topic Notes/Mathematics/Calculus",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions",
     "Topic Notes/Computer Science/Libraries/PyTorch",
