@@ -1,3 +1,5 @@
+
+
 Convolutional layers mainly have three key properties:
 1. *sparse connections*
 2. *parameter sharing*

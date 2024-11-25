@@ -1,4 +1,4 @@
-A transformer is a type of deep learning model architecture that has revolutionized the field of Natural Language Processing (NLP) and has found applications in various other domains such as computer vision, speech recognition, and more. Introduced in the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) in 2017, the Transformer architecture departs from traditional [[Recurrent Neural Network]] and [[Convolutional Neural Networks]] by relying entirely on a mechanism called *self-attention* to process input data.
+A transformer is a type of deep learning model architecture that has revolutionized the field of Natural Language Processing (NLP) and has found applications in various other domains such as computer vision, speech recognition, and more. Introduced in the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) in 2017, the Transformer architecture departs from traditional [[Recurrent Neural Network]] and [[Convolutional Neural Network]] by relying entirely on a mechanism called *self-attention* to process input data.
 
 ## Structure
 
