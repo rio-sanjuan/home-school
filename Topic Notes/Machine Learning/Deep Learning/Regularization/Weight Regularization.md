@@ -1,0 +1,1 @@
+A common technique to prevent models from overfitting in machine learning is to include a regularization term on model parameters in the loss function. The regularization term constrains the model parameters to be relatively small, which generally enables the model to generalize better. Two commonly adopted regularizes are the $L_1$ and $L_2$ norms of the model parameters.

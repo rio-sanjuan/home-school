@@ -22,9 +22,34 @@ Generally, the $i^{th}$ channel of the input consists of the $i^{th}$ element of
 In many cases, to further reduce computational complexity, we can regularly skip some positions when sliding the kernel over the input. The convolution can be only performed every $s$ positions, where $s$ is called the *stride*. We call the convolutions with stride *strided convolutions*. The strided convolution can also be viewed as a downsampling over the results of the regular convolution. Zero padding is usually applied to the input to maintain the size of the output. The size of the padding, the size of the receptive field (or the size of the kernel), and the stride determine the size of the output when the input size is fixed. Given a one-dimensional input with size $N$, a padding size of $Q$, a size of the receptive field $F$, and a stride size $s$, the size of the output $O$ can be calculated as $$O=\frac{N-F+2Q}{s}+1.$$
 ## Pooling/Downsampling
 
-A pooling layer usually follows the convolution layer and the detector (or activation) layer
+A pooling layer usually follows the convolution layer and the detector (or activation) layer. The pooling function summarizes the statistic of a local neighborhood to denote this neighborhood in the resulting output. Hence, the width and height of the data is reduced after the pooling layer. However, the depth (number of channels) does not change. The commonly used pooling operations are either max pooling or average pooling.
 
 Pooling is a powerful operation that frees filters from requiring their inputs to be in precisely the right place. Mathematicians refer to a change in location as *translation* or *shift*, and if some operation is insensitive to a certain kind of change it's called *invariant* with respect to that operation. Combining these, we sometimes say that pooling allows our convolutions to be *translationally invariant*, or *shift invariant*. Pooling also also has the bonus benefit of reducing the size of the tensors flowing through our network, which reduces both memory needs and execution time.
 ## Striding
 
 Striding refers to the step size or interval by which the convolution filter (or kernel) moves across the input feature map. It controls how much the filter shifts during each operation, determining the spatial dimensions of the output feature map. Larger strides lead to fewer computations and smaller feature maps. Smaller strides capture more overlapping information, which can be useful for detailed feature extraction.
+## Example
+
+```python
+import torch
+import torch.nn as nn
+
+class SimpleCNN(nn.Module):
+	def __init__(self):
+		super(SimpleCNN, self).__init__()
+		self.conv1 = nn.Conv2d(in_channels=3, out_channels=16, kernel_size=3, stride=1, padding=1)
+		self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
+		self.conv2 = nn.Conv2d(in_channels=16, out_channels=32, kernel_size=3, stride=1, padding=1)
+		self.fc1 = nn.Linear(32 * 8 * 8, 128)
+		self.fc2 = nn.Linear(128, 10) # 10 output classes
+
+	def forward(self, x):
+		x = self.pool(torch.relu(self.conv1(x)))
+		x = self.pool(torch.relu(self.conv2(x)))
+		x = x.view(-1, 32 * 8 * 8)
+		x = torch.relu(self.fc1(x))
+		x = self.fx2(x)
+		return x
+
+model = SimpleCNN()
+```
