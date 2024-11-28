@@ -1,0 +1,3 @@
+The Bias-Variance tradeoff is a fundamental concept in machine learning that describes the tradeoffs between two types of error when building models:
+
+1. **Bias** refers to the error caused by applying a simplistic model to a complex dataset. Models with high bias are too simple and lead to [[Underfitting]] the data, failing to capture important patterns. An example would be applying a linear regression model to a dataset with non-linear dynamics.
