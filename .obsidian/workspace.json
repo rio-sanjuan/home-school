@@ -26,19 +26,35 @@
           {
             "id": "77cbd0e9553a24d6",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Model Training/Bias-Variance Tradeoff.md",
+                "file": "Topic Notes/Machine Learning/Ensemble Methods/Bagging.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Bagging"
+            }
+          },
+          {
+            "id": "363ed0fd287001ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic Notes/Interview Questions/Technical/General ML/What is the difference between a model parameter and a learning algorithm's hyperparameter?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bias-Variance Tradeoff"
+              "title": "What is the difference between a model parameter and a learning algorithm's hyperparameter?"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Nesterov",
+                "query": "Boosting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,8 +206,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77cbd0e9553a24d6",
+  "active": "363ed0fd287001ed",
   "lastOpenFiles": [
+    "Topic Notes/Interview Questions/Technical/General ML/What do model-based learning algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?.md",
+    "Topic Notes/Interview Questions/Technical/General ML/What can go wrong if you tune hyperparameters using the test set?.md",
+    "Topic Notes/Interview Questions/Technical/General ML/What are the two most common supervised ML tasks?.md",
+    "Topic Notes/Interview Questions/Technical/General ML/What are some types of problems where Machine Learning shines?.md",
+    "Topic Notes/Interview Questions/Technical/General ML/If your model performs great on the training data but generalizes poorly to new instances, what is happening? Can you name three possible solutions?.md",
+    "Topic Notes/Interview Questions/Technical/General ML/How would you define Machine Learning?.md",
+    "Topic Notes/Interview Questions/Technical/General ML/Can you some of the main challenges in Machine Learning?.md",
+    "Topic Notes/Interview Questions/Technical/General ML/Can you name four common unsupervised ML tasks?.md",
+    "Topic Notes/Interview Questions/Technical/What is the difference between bagging and boosting?.md",
+    "Topic Notes/Machine Learning/Ensemble Methods/Bagging.md",
+    "Topic Notes/Machine Learning/Ensemble Methods/Stacking.md",
+    "Topic Notes/Machine Learning/Model Training/Bias-Variance Tradeoff.md",
+    "Topic Notes/Machine Learning/Ensemble Methods/Boosting.md",
+    "Topic Notes/Machine Learning/Supervised Learning/Decision Tree.md",
     "Topic Notes/Machine Learning/Supervised Learning/LightGBM.md",
     "Topic Notes/Machine Learning/Supervised Learning/XGBoost.md",
     "Topic Notes/Machine Learning/Supervised Learning/Next Sentence Prediction.md",
@@ -200,24 +230,10 @@
     "Topic Notes/Machine Learning/Model Interpretability/Partial Dependence Plots.md",
     "Topic Notes/Machine Learning/Model Interpretability/Shapley Additive Explanations.md",
     "Topic Notes/Machine Learning/Model Training/Overfitting.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What can go wrong if you tune hyperparameters using the test set?.md",
     "Topic Notes/Interview Questions/Technical/General ML/What is the train-dev set, when do you need it, and how do you use it?.md",
     "Topic Notes/Interview Questions/Technical/General ML/What is the purpose of a validation set?.md",
     "Topic Notes/Interview Questions/Technical/General ML/What is a test set, and why would you want to use it?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/If your model performs great on the training data but generalizes poorly to new instances, what is happening? Can you name three possible solutions?.md",
     "Topic Notes/Machine Learning/Model Training/Regularization.md",
-    "Topic Notes/Machine Learning/Model Training/Bias-Variance Tradeoff.md",
-    "Topic Notes/Interview Questions/Technical/General ML/Can you name four of the main challenges in Machine Learning?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What do model-based learning algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What is the difference between a model parameter and a learning algorithm's hyperparameter?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What type of learning algorithm relies on a similarity measure to make predictions?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What is out-of-core learning?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What is an online learning system?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What type of algorithm would you use to segment your customers into multiple groups?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What type of ML algorithm would you use to allow a robot to walk in various unknown terrains?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/Can you name four common unsupervised ML tasks?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What are the two most common supervised ML tasks?.md",
     "Topic Notes/Interview Questions/Technical/General ML",
     "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Initialization",
     "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Regularization",

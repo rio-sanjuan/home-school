@@ -1,0 +1,1 @@
+Machine Learning is about training machines to perform some task using data. Generally, there is iterative improvement in model performance against some metric.

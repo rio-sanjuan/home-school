@@ -1,0 +1,1 @@
+Bootstrap Aggregating, or "Bagging", is an ensemble learning technique that aims to improve models by reducing variance in the [[Bias-Variance Tradeoff]] and preventing [[Overfitting]]. It works by combining multiple models (typically of the same type) trained on different subsets of the training data.
