@@ -29,28 +29,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Computer Science/Algorithms/Big O Notation.md",
+                "file": "Topic Notes/Machine Learning/Types of Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Big O Notation"
-            }
-          },
-          {
-            "id": "3e2e78e2b8cb3192",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "Types of Machine Learning"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,10 +190,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e2e78e2b8cb3192",
+  "active": "77cbd0e9553a24d6",
   "lastOpenFiles": [
-    "Topic Notes/Machine Learning/Deep Learning/Long Short-Term Memory.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/Eclat.md",
+    "Topic Notes/Machine Learning/Types of Machine Learning.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/Apriori.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/Dimensionality Reduction/Independent Component Analysis.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/Dimensionality Reduction/Singular Value Decomposition.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/Dimensionality Reduction/t-SNE.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/Dimensionality Reduction/Principal Component Analysis.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/Isolation Forest.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/One-class SVM.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/Hierarchical Clustering Analysis.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/DBSCAN.md",
+    "Topic Notes/Machine Learning/Unsupervised Learning/K-Means.md",
     "Topic Notes/Computer Science/Algorithms/Big O Notation.md",
+    "Topic Notes/Machine Learning/Deep Learning/Long Short-Term Memory.md",
     "Topic Notes/Machine Learning/Deep Learning/Regularization/Weight Regularization.md",
     "Topic Notes/Machine Learning/Deep Learning/Regularization/Batch Normalization.md",
     "Topic Notes/Machine Learning/Deep Learning/Recurrent Neural Network.md",
@@ -219,18 +219,6 @@
     "Topic Notes/Machine Learning/Deep Learning/Initialization",
     "Notes/Applied Scientist, PXT Finance.md",
     "Topic Notes/Machine Learning/MLOps/MLFlow/MLflow Workflows.md",
-    "Topic Notes/Machine Learning/Deep Learning/Universal Approximation Theorem.md",
-    "Topic Notes/Machine Learning/Deep Learning/Transfer Learning.md",
-    "Topic Notes/Machine Learning/Deep Learning/Transformer.md",
-    "Topic Notes/Machine Learning/Deep Learning/Backpropagation.md",
-    "Topic Notes/Machine Learning/Deep Learning/Attention.md",
-    "Topic Notes/Computer Science/Data Structures/Red-Black Tree.md",
-    "Topic Notes/Computer Science/Data Structures/Binary Search Tree.md",
-    "Topic Notes/Computer Science/Algorithms/Dynamic Programming.md",
-    "Topic Notes/Computer Science/Algorithms/Fast Inverse Square Root.md",
-    "Topic Notes/Computer Science/Algorithms/Binary Search.md",
-    "Topic Notes/Machine Learning/Model Training/Overfitting.md",
-    "Topic Notes/Machine Learning/Model Training/Bias-Variance Tradeoff.md",
     "Topic Notes/Machine Learning/Deep Learning/Regularization",
     "Topic Notes/Mathematics/Calculus",
     "Topic Notes/Machine Learning/Deep Learning/Activation Functions",
