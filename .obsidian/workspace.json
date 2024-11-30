@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Supervised Learning/Linear Regression.md",
+                "file": "Topic Notes/Mathematics/Linear Algebra/Matrix Factorization/Singular Value Decomposition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Regression"
+              "title": "Singular Value Decomposition"
             }
           }
         ],
@@ -192,6 +192,8 @@
   },
   "active": "e6729e96a4c5fde1",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Supervised Learning/Linear Regression.md",
+    "Topic Notes/Mathematics/Linear Algebra/Matrix Factorization/Singular Value Decomposition.md",
     "Notes/Applied Scientist, PXT Finance.md",
     "Topic Notes/Machine Learning/Ensemble Methods/Bagging.md",
     "Topic Notes/Interview Questions/Technical/General ML/What is the difference between a model parameter and a learning algorithm's hyperparameter?.md",
@@ -216,8 +218,6 @@
     "Topic Notes/Machine Learning/Model Interpretability/Partial Dependence Plots.md",
     "Topic Notes/Machine Learning/Model Interpretability/Shapley Additive Explanations.md",
     "Topic Notes/Machine Learning/Model Training/Overfitting.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What is the train-dev set, when do you need it, and how do you use it?.md",
-    "Topic Notes/Interview Questions/Technical/General ML/What is the purpose of a validation set?.md",
     "Topic Notes/Interview Questions/Technical/General ML",
     "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Initialization",
     "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Regularization",
