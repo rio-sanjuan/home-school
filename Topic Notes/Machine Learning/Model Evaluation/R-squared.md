@@ -1,0 +1,6 @@
+While [[Residual Standard Error]] provides an absolute measure of lack of fit to the model, the $R^2$ statistic provides an alternative *proportional* measure of fit. Also known as the **coefficient of determination**, R-squared is a statistical measure that indicates how well a regression model explains the variability of the dependent variable $y$ based on the independent variables $x$. It is commonly used in [[Linear Regression]] and other modeling approaches to evaluate the goodness of fit.$$R^2=1 - \frac{\text{SS}_{res}}{\text{SS}_{tot}}=1 - \frac{\sum_{i=1}^n(y_i-\hat y)^2}{\sum_{i=1}^n(y_i-\bar y)^2}$$where $\text{SS}_{res}$ is the *residual sum of squares*, measuring the variability in $y$ not explained by the model, and $\text{SS}_{tot}$ is the *total sum of squares*, measuring the total variability in $y$.
+
+If a linear model of square footage on house prices as an $R^2$ value of 0.75, we say that 
+> The model explains 75% of the variability in house prices based on square footage.
+
+Note that $R^2$ does not guarantee good predictive performance on unseen data, cannot detect overfitting, and assumes a linear relationship between the variables (it may be misleading for nonlinear models).

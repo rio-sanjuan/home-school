@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Model Evaluation/Residual Standard Error.md",
+                "file": "Topic Notes/Machine Learning/Supervised Learning/Linear Regression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Residual Standard Error"
+              "title": "Linear Regression"
             }
           }
         ],
@@ -192,8 +192,10 @@
   },
   "active": "306c1f4d7e91eae5",
   "lastOpenFiles": [
-    "Notes/Applied Scientist, PXT Finance.md",
+    "Topic Notes/Machine Learning/Model Evaluation/R-squared.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Adjusted R-Squared.md",
     "Topic Notes/Machine Learning/Model Evaluation/Residual Standard Error.md",
+    "Notes/Applied Scientist, PXT Finance.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/F-1 Score.md",
     "Topic Notes/Machine Learning/Model Evaluation/AUC.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix.md",
@@ -216,8 +218,6 @@
     "Topic Notes/Interview Questions/Technical/General ML/How would you define Machine Learning?.md",
     "Topic Notes/Interview Questions/Technical/General ML/Can you some of the main challenges in Machine Learning?.md",
     "Topic Notes/Interview Questions/Technical/General ML/Can you name four common unsupervised ML tasks?.md",
-    "Topic Notes/Interview Questions/Technical/What is the difference between bagging and boosting?.md",
-    "Topic Notes/Machine Learning/Ensemble Methods/Stacking.md",
     "Topic Notes/Interview Questions/Technical/General ML",
     "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Initialization",
     "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Regularization",

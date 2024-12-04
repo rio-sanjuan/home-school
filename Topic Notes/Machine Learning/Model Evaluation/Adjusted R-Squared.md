@@ -1,0 +1,1 @@
+Adding more independent variables to the model always increase [[R-squared]], even if those variables do not improve the model significantly. To account for this, Adjusted R-squared accounts for the number of predictors and adjusts for overfitting:$$\text{Adjusted }R^2 = 1 - \frac{(1-R^2)(n-1)}{n-p-1}$$where $n$ is the number of observations and $p$ is the number of predictors.
