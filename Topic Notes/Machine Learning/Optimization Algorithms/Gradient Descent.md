@@ -8,7 +8,7 @@ The goal is to find the set of parameters (weights and biases) that results in t
 
 1. **Initialization**: Initialize the weights and biases of the model, typically with small random values.
 2. **Forward Pass**: Compute the output of the model (e.g., a neural network) based on the current values of the parameters.
-3. **Loss Calculation**: Calculate the loss (error) between the predicted output and the actual target values using a loss function (e.g., [[Mean Squared Error]] or [[Cross-Entropy Loss]] for classification).
+3. **Loss Calculation**: Calculate the loss (error) between the predicted output and the actual target values using a loss function (e.g., [[Mean Squared Error]] or [[Cross-Entropy]] for classification).
 4. **Backward Pass** ([[Backpropagation]]): Compute the gradient of the loss function with respect to each model parameter. This is done using the *chain rule* in calculus and is known as backpropagation. The gradients indicate how much change in each parameter will reduce the loss.
 5. **Update Parameters**: Adjust the parameters in the opposite direction of the gradient to minimize the loss. The size of the step taken in this direction is determined by the *learning rate*.
 $$ θ = θ - 𝛼 \;ᐧ\;\nabla L (θ)$$
