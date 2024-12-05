@@ -9,7 +9,9 @@ Cross-entropy loss has the following properties:
 4. **Well-defined gradient**: Cross-entropy works smoothly with gradient-based optimization methods (e.g., [[Gradient Descent]], [[Stochastic Gradient Descent]])
 ## Binary Cross-Entropy
 
-For binary classification problems, where the true label $y$ is either 0 or 1, the cross-entropy loss is defined as:$$\mathcal L = -\frac 1n\sum_{i=1}^n\left[y_i\log(\hat y_i) + (1-y_i)\log(1-\hat y_i)\right].$$If $y_i$ = 1, the loss focuses on $-\log(\hat y_i)$, ensuring the predicted probability $\hat y_i$ is close to 1.
+For binary classification problems, where the true label $y$ is either 0 or 1, the cross-entropy loss is defined as:$$\mathcal L(y_i, \hat y_i) = -\frac 1n\sum_{i=1}^n\left[y_i\log(\hat y_i) + (1-y_i)\log(1-\hat y_i)\right].$$If $y_i$ = 1, the loss focuses on $-\log(\hat y_i)$, ensuring the predicted probability $\hat y_i$ is close to 1.
 ## Categorical Cross-Entropy
 
 For multiclass classification problems, where $y$ is one-hot encoded, and the model outputs a probability distribution over $C$ classes, the loss is:$$\mathcal L = -\frac 1n\sum_{i=1}^n\sum_{c=1}^Cy_{i,c}\log(\hat y_{i,c}).$$The loss only considers the probability for the true class $y_{i,c}=1$, ignoring probabilities for other classes.
+## Resources
+1. Cross Entropy by #AurelienGeron https://www.youtube.com/watch?v=ErfnhcEV1O8&t=18s

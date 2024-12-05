@@ -59,12 +59,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Model Evaluation/Cross-Entropy.md",
+                "file": "Topic Notes/Machine Learning/Supervised Learning/Support Vector Machines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cross-Entropy"
+              "title": "Support Vector Machines"
             }
           }
         ],
@@ -222,8 +222,8 @@
   },
   "active": "cc6dcd6d002ce985",
   "lastOpenFiles": [
-    "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Activation Functions/Sigmoid.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cross-Entropy.md",
+    "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Activation Functions/Sigmoid.md",
     "Notes/Amazon ML Breadth Topics.md",
     "Topic Notes/Machine Learning/Supervised Learning/Bayesian Linear Regression.md",
     "Topic Notes/Machine Learning/Supervised Learning/Logistic Regression.md",
