@@ -1,0 +1,1 @@
+Logistic regression is a statistical method and machine learning algorithm used for binary classification tasks, where the goal is to predict one of two possible outcomes based on input features. Despite its name, logistic regression is a classification algorithm, not a regression algorithm.
