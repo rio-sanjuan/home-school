@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,8 +222,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7582f039a6132bec",
+  "active": "6cc91c2915d3d6cb",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Supervised Learning/Decision Tree.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/F-1 Score.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Recall.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Precision.md",
@@ -232,7 +233,6 @@
     "Topic Notes/Machine Learning/Supervised Learning/EfficientNet.md",
     "Topic Notes/Machine Learning/Supervised Learning/ResNet.md",
     "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
-    "Topic Notes/Machine Learning/Supervised Learning/Decision Tree.md",
     "Topic Notes/Machine Learning/Supervised Learning/Time-Series Analysis/Facebook Prophet.md",
     "Topic Notes/Mathematics/Linear Algebra/Eigenvalues and Eigenvectors/Perron-Frobenius Theorem.md",
     "Topic Notes/Machine Learning/Supervised Learning/Next Sentence Prediction.md",

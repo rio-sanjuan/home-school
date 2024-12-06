@@ -18,6 +18,7 @@ The model selects a feature and a threshold to split the data such that the vari
 3. **Non-parametric**: decision trees make no assumptions about the distribution of the data
 4. **Feature importance**: highlights which features are most important for predictions
 ## Disadvantages
+
 1. **Overfitting**: decision trees can grow very deep, creating overly complex models that do not generalize well to unseen data
 2. **Instability**: small changes in the data can lead to significantly different tree structures
 3. **Bias Towards Features with More Levels**: features with more distinct values can dominate the splitting process
