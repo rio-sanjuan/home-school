@@ -56,21 +56,21 @@
             }
           },
           {
-            "id": "cb2a283e55f405d6",
+            "id": "7582f039a6132bec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Supervised Learning/EfficientNet.md",
+                "file": "Topic Notes/Machine Learning/Model Evaluation/Accuracy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EfficientNet"
+              "title": "Accuracy"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -222,10 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6cc91c2915d3d6cb",
+  "active": "7582f039a6132bec",
   "lastOpenFiles": [
-    "Topic Notes/Machine Learning/Supervised Learning/EfficientNet.md",
     "Notes/Designing ML Systems - Image Classifier.md",
+    "Topic Notes/Machine Learning/Supervised Learning/EfficientNet.md",
     "Topic Notes/Machine Learning/Supervised Learning/ResNet.md",
     "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
     "Topic Notes/Machine Learning/Supervised Learning/Decision Tree.md",
