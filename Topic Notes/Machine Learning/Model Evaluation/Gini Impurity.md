@@ -1,0 +1,3 @@
+Gini Impurity is a metric used in [[Decision Tree]] models to measure the impurity or homogeneity of a dataset at a given node. It quantifies how mixed the classes are in the data split. A lower Gini Impurity indicates that a node contains mostly samples from a single class, whereas a higher Gini Impurity indicates a mix of different classes.
+
+For a node with $C$ classes, the Gini impurity $G$ is calculated as:$$G = 1 - \sum_{i=1}^Cp_i^2$$where $p_i$ represents the proportion of samples belonging to class $i$ at the node.
