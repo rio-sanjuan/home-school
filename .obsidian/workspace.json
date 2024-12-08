@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Computer Science/Algorithms/Big O Notation.md",
+                "file": "Topic Notes/Machine Learning/Supervised Learning/Naive Bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Big O Notation"
+              "title": "Backlinks for Naive Bayes"
             }
           },
           {
@@ -208,6 +208,8 @@
   },
   "active": "ab00d452fdcb0458",
   "lastOpenFiles": [
+    "Topic Notes/Probability/Bayes Theorem.md",
+    "Topic Notes/Machine Learning/Supervised Learning/Naive Bayes.md",
     "Notes/Amazon ML Breadth Topics.md",
     "Notes/Designing ML Systems - Image Classifier.md",
     "Topic Notes/Machine Learning/Supervised Learning/Decision Tree.md",
@@ -233,8 +235,6 @@
     "Topic Notes/Machine Learning/Model Evaluation/Variance Inflation Factor.md",
     "Topic Notes/Machine Learning/Supervised Learning/RANSAC.md",
     "Topic Notes/Machine Learning/Supervised Learning/Huber Regression.md",
-    "Topic Notes/Machine Learning/Model Evaluation/R-squared.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Adjusted R-Squared.md",
     "Topic Notes/Interview Questions/Technical/General ML",
     "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Initialization",
     "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Regularization",

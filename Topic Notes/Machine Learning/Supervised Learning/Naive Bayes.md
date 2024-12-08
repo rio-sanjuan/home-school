@@ -1,0 +1,3 @@
+Naive Bayes is a family of simple yet powerful probabilistic classification algorithms based on applying [[Bayes Theorem]] with the assumption of conditional independence between features. Despite its simplicity, Naive Bayes performs surprisingly well for many types of classification problems, especially in Natural Language Processing (NLP) tasks like spam filtering, sentiment analysis, and text classification.
+
+The "naive" part comes from the assumption that *features are conditionally independent* given the class label:$$P(X\,\vert\,C)=P(x_1\,\vert\,C)\cdot P(x_2\,\vert\,C)\cdot\ldots\cdot P(x_n\,\vert\,C)$$
