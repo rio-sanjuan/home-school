@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Amazon Applied Scientist, PXT Finance"
             }
+          },
+          {
+            "id": "b9aa3991db2bb041",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gini Impurity"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Amazon Applied Scientist, PXT Finance.md",
+                "file": "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Applied Scientist, PXT Finance"
+              "title": "Backlinks for Gini Impurity"
             }
           },
           {
@@ -175,14 +190,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1fbfa860418b3921",
+  "active": "a972992ff9d6f4cb",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Model Evaluation/Cross-Entropy.md",
+    "Topic Notes/Machine Learning/Model Evaluation/R-squared.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Adjusted R-Squared.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Error.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Variance Inflation Factor.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Cook's Distance.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix.md",
+    "Topic Notes/Machine Learning/Model Evaluation/AUC.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/ROC.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Recall.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Precision.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/F-1 Score.md",
+    "Notes/Amazon Applied Scientist, PXT Finance.md",
     "Templates/Guitar Lesson.md",
     "Templates/Interview Question.md",
     "Templates/Easy Spanish.md",
     "Templates/Daily Note.md",
     "Templates/STAR Story.md",
-    "Notes/Amazon Applied Scientist, PXT Finance.md",
     "Notes/Amazon ML Breadth Study Plan.md",
     "Notes/Amazon LP Interview Prep.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles/Success and Scale Bring Broad Responsibility.md",
@@ -190,27 +218,14 @@
     "Topic Notes/Behavioral/Amazon Leadership Principles/Deliver Results.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles/Have Backbone; Disagree and Commit.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles/Dive Deep.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Earn Trust.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Frugality.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Bias for Action.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Think Big.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Insist on the Highest Standards.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Hire and Develop the Best.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Learn and Be Curious.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Are Right, A Lot.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Invent and Simplify.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Ownership.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Customer Obsession.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles",
-    "Notes/Amazon ML Breadth Topics.md",
-    "Topic Notes/Machine Learning/Supervised Learning/Naive Bayes.md",
     "Topic Notes/Interview Questions/Technical/Supervised Learning",
     "Topic Notes/Machine Learning/Supervised Learning/Regression",
     "Topic Notes/Interview Questions/Technical/General ML",
-    "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Initialization",
-    "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Regularization",
+    "Topic Notes/Machine Learning/Deep Learning/Initialization",
+    "Topic Notes/Machine Learning/Deep Learning/Regularization",
     "Topic Notes/Mathematics/Calculus",
-    "Topic Notes/Machine Learning/Supervised Learning/Deep Learning/Activation Functions",
+    "Topic Notes/Machine Learning/Deep Learning/Activation Functions",
     "Topic Notes/Computer Science/Libraries/PyTorch",
     "Topic Notes/Mathematics/Graph Theory/Algorithms",
     "Files/Pasted image 20241028110635.png",
