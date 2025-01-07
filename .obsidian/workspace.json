@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
+                "file": "Topic Notes/Machine Learning/Model Evaluation/Residual Standard Error.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gini Impurity"
+              "title": "Residual Standard Error"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
+                "file": "Topic Notes/Machine Learning/Model Evaluation/Residual Standard Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Gini Impurity"
+              "title": "Backlinks for Residual Standard Error"
             }
           },
           {
@@ -190,22 +190,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a972992ff9d6f4cb",
+  "active": "b9aa3991db2bb041",
   "lastOpenFiles": [
-    "Topic Notes/Machine Learning/Model Evaluation/Cross-Entropy.md",
     "Topic Notes/Machine Learning/Model Evaluation/R-squared.md",
     "Topic Notes/Machine Learning/Model Evaluation/Adjusted R-Squared.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/ROC Curve.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Recall.md",
+    "Notes/Amazon Applied Scientist, PXT Finance.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/F-1 Score.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Precision.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Cross-Entropy.md",
     "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Error.md",
     "Topic Notes/Machine Learning/Model Evaluation/Variance Inflation Factor.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cook's Distance.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix.md",
     "Topic Notes/Machine Learning/Model Evaluation/AUC.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/ROC.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Recall.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Precision.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/F-1 Score.md",
-    "Notes/Amazon Applied Scientist, PXT Finance.md",
     "Templates/Guitar Lesson.md",
     "Templates/Interview Question.md",
     "Templates/Easy Spanish.md",

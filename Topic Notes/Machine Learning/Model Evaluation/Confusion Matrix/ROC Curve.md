@@ -1,0 +1,1 @@
+The Receiver Operating Characteristic (ROC) Curve plots the *true positive rate* ([[Recall]]) against the *false positive rate*, which is equivalent to $1-$*true negative rate*.
