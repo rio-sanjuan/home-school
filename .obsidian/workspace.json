@@ -51,8 +51,7 @@
               "title": "Nesterov Momentum Gradient Descent"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Nesterov Momentum Gradient Descent.md",
+                "file": "Notes/Amazon Applied Scientist, PXT Finance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nesterov Momentum Gradient Descent"
+              "title": "Backlinks for Amazon Applied Scientist, PXT Finance"
             }
           },
           {
@@ -204,8 +203,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4cf3ee19e1e74aca",
+  "active": "1fbfa860418b3921",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Nesterov Momentum Gradient Descent.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/RMSprop.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Momentum Gradient Descent.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
@@ -231,7 +231,6 @@
     "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Error.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cook's Distance.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix.md",
-    "Topic Notes/Machine Learning/Model Evaluation/AUC.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles",
     "Topic Notes/Interview Questions/Technical/Supervised Learning",
     "Topic Notes/Machine Learning/Supervised Learning/Regression",
