@@ -36,8 +36,23 @@
               "icon": "lucide-file",
               "title": "Mean Absolute Percentage Error"
             }
+          },
+          {
+            "id": "4cf3ee19e1e74aca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Nesterov Momentum Gradient Descent.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nesterov Momentum Gradient Descent"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Amazon Applied Scientist, PXT Finance.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Nesterov Momentum Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Applied Scientist, PXT Finance"
+              "title": "Backlinks for Nesterov Momentum Gradient Descent"
             }
           },
           {
@@ -189,11 +204,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1fbfa860418b3921",
+  "active": "4cf3ee19e1e74aca",
   "lastOpenFiles": [
-    "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/RMSprop.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Momentum Gradient Descent.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
+    "Topic Notes/Machine Learning/Model Training/Bias-Variance Tradeoff.md",
+    "Topic Notes/Machine Learning/Model Training/Cross-Validation.md",
+    "Topic Notes/Machine Learning/Model Training/Underfitting.md",
+    "Topic Notes/Machine Learning/Model Training/Regularization.md",
+    "Topic Notes/Machine Learning/Model Training/Overfitting.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Variance Inflation Factor.md",
+    "Topic Notes/Machine Learning/Supervised Learning/Linear Regression.md",
     "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cross-Entropy.md",
+    "Notes/Amazon Applied Scientist, PXT Finance.md",
+    "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cross Validation.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/ROC Curve.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/F-1 Score.md",
@@ -202,21 +228,10 @@
     "Topic Notes/Machine Learning/Model Evaluation/Adjusted R-Squared.md",
     "Topic Notes/Machine Learning/Model Evaluation/R-squared.md",
     "Topic Notes/Machine Learning/Model Evaluation/Residual Standard Error.md",
-    "Notes/Amazon Applied Scientist, PXT Finance.md",
     "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Error.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Variance Inflation Factor.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cook's Distance.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix.md",
     "Topic Notes/Machine Learning/Model Evaluation/AUC.md",
-    "Templates/Guitar Lesson.md",
-    "Templates/Interview Question.md",
-    "Templates/Easy Spanish.md",
-    "Templates/Daily Note.md",
-    "Templates/STAR Story.md",
-    "Notes/Amazon ML Breadth Study Plan.md",
-    "Notes/Amazon LP Interview Prep.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Success and Scale Bring Broad Responsibility.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Strive to be Earth's Best Employer.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles",
     "Topic Notes/Interview Questions/Technical/Supervised Learning",
     "Topic Notes/Machine Learning/Supervised Learning/Regression",
