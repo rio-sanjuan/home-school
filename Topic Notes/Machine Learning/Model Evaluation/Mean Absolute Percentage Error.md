@@ -1,0 +1,1 @@
+$$\text{MAPE} = \frac1n\sum_{i=1}^n\frac{\left\vert y_i-\hat y_i\right\vert}{y_i}$$

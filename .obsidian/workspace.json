@@ -37,8 +37,7 @@
               "title": "Mean Absolute Percentage Error"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
+                "file": "Notes/Amazon Applied Scientist, PXT Finance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Mean Absolute Percentage Error"
+              "title": "Backlinks for Amazon Applied Scientist, PXT Finance"
             }
           },
           {
@@ -190,8 +189,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9aa3991db2bb041",
+  "active": "1fbfa860418b3921",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
     "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cross-Entropy.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cross Validation.md",
@@ -217,7 +217,6 @@
     "Notes/Amazon LP Interview Prep.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles/Success and Scale Bring Broad Responsibility.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles/Strive to be Earth's Best Employer.md",
-    "Topic Notes/Behavioral/Amazon Leadership Principles/Deliver Results.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles",
     "Topic Notes/Interview Questions/Technical/Supervised Learning",
     "Topic Notes/Machine Learning/Supervised Learning/Regression",
