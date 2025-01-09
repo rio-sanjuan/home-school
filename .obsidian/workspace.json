@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adadelta"
+              "title": "Adam"
             }
           }
         ],
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Adadelta"
+              "title": "Backlinks for Adam"
             }
           },
           {
@@ -207,6 +207,7 @@
   "active": "28378cf0ecc22770",
   "lastOpenFiles": [
     "Topic Notes/Machine Learning/Deep Learning/Optimization/RMSprop.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Adagrad.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Momentum Gradient Descent.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Nesterov Momentum Gradient Descent.md",
@@ -215,7 +216,6 @@
     "Notes/Amazon Applied Scientist, PXT Finance.md",
     "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles/Bias for Action.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
     "Topic Notes/Machine Learning/Model Training/Bias-Variance Tradeoff.md",
     "Topic Notes/Machine Learning/Model Training/Cross-Validation.md",
     "Topic Notes/Machine Learning/Model Training/Underfitting.md",
