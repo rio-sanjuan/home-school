@@ -24,31 +24,17 @@
             }
           },
           {
-            "id": "b9aa3991db2bb041",
+            "id": "0e3dd2bad01cf4e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
+                "file": "Topic Notes/Behavioral/Amazon Leadership Principles/Bias for Action.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mean Absolute Percentage Error"
-            }
-          },
-          {
-            "id": "4cf3ee19e1e74aca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Nesterov Momentum Gradient Descent.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nesterov Momentum Gradient Descent"
+              "title": "Bias for Action"
             }
           }
         ]
@@ -205,6 +191,9 @@
   },
   "active": "1fbfa860418b3921",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
+    "Topic Notes/Behavioral/Amazon Leadership Principles/Bias for Action.md",
+    "Notes/Amazon Applied Scientist, PXT Finance.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Nesterov Momentum Gradient Descent.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/RMSprop.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Momentum Gradient Descent.md",
@@ -218,8 +207,6 @@
     "Topic Notes/Machine Learning/Supervised Learning/Linear Regression.md",
     "Topic Notes/Machine Learning/Model Evaluation/Gini Impurity.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cross-Entropy.md",
-    "Notes/Amazon Applied Scientist, PXT Finance.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cross Validation.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/ROC Curve.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/F-1 Score.md",
@@ -230,7 +217,6 @@
     "Topic Notes/Machine Learning/Model Evaluation/Residual Standard Error.md",
     "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Error.md",
     "Topic Notes/Machine Learning/Model Evaluation/Cook's Distance.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles",
     "Topic Notes/Interview Questions/Technical/Supervised Learning",
     "Topic Notes/Machine Learning/Supervised Learning/Regression",
