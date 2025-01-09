@@ -36,8 +36,23 @@
               "icon": "lucide-file",
               "title": "Bias for Action"
             }
+          },
+          {
+            "id": "28378cf0ecc22770",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adadelta"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Amazon Applied Scientist, PXT Finance.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Applied Scientist, PXT Finance"
+              "title": "Backlinks for Adadelta"
             }
           },
           {
@@ -189,14 +204,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1fbfa860418b3921",
+  "active": "28378cf0ecc22770",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/RMSprop.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adagrad.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Momentum Gradient Descent.md",
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Nesterov Momentum Gradient Descent.md",
+    "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Hyperbolic Tangent.md",
+    "Topic Notes/Machine Learning/Deep Learning/Activation Functions/Swish.md",
+    "Notes/Amazon Applied Scientist, PXT Finance.md",
     "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Percentage Error.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles/Bias for Action.md",
-    "Notes/Amazon Applied Scientist, PXT Finance.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Nesterov Momentum Gradient Descent.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/RMSprop.md",
-    "Topic Notes/Machine Learning/Deep Learning/Optimization/Momentum Gradient Descent.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
     "Topic Notes/Machine Learning/Model Training/Bias-Variance Tradeoff.md",
     "Topic Notes/Machine Learning/Model Training/Cross-Validation.md",
@@ -214,9 +232,6 @@
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Recall.md",
     "Topic Notes/Machine Learning/Model Evaluation/Adjusted R-Squared.md",
     "Topic Notes/Machine Learning/Model Evaluation/R-squared.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Residual Standard Error.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Mean Absolute Error.md",
-    "Topic Notes/Machine Learning/Model Evaluation/Cook's Distance.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles",
     "Topic Notes/Interview Questions/Technical/Supervised Learning",
     "Topic Notes/Machine Learning/Supervised Learning/Regression",
