@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Embedding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adam"
+              "title": "Embedding"
             }
           }
         ],
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
+                "file": "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Adam"
+              "title": "Backlinks for Embedding"
             }
           },
           {
@@ -206,6 +206,7 @@
   },
   "active": "28378cf0ecc22770",
   "lastOpenFiles": [
+    "Topic Notes/Machine Learning/Deep Learning/Optimization/Adam.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/RMSprop.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Adadelta.md",
     "Topic Notes/Machine Learning/Deep Learning/Optimization/Adagrad.md",
@@ -231,7 +232,6 @@
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Precision.md",
     "Topic Notes/Machine Learning/Model Evaluation/Confusion Matrix/Recall.md",
     "Topic Notes/Machine Learning/Model Evaluation/Adjusted R-Squared.md",
-    "Topic Notes/Machine Learning/Model Evaluation/R-squared.md",
     "Topic Notes/Behavioral/Amazon Leadership Principles",
     "Topic Notes/Interview Questions/Technical/Supervised Learning",
     "Topic Notes/Machine Learning/Supervised Learning/Regression",
