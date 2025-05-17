@@ -46,9 +46,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "7a0a2c46f2be2dbf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -67,7 +79,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -200,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "28378cf0ecc22770",
+  "active": "7a0a2c46f2be2dbf",
   "lastOpenFiles": [
     "Daily Notes/2025-02-22.md",
     "Topic Notes/Machine Learning/Deep Learning/Graph Neural Networks/Embedding.md",
